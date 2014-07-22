@@ -1,98 +1,40 @@
 \chapter{Introduction}\label{chapter:introduction}
 
-\section{Section}
-Citation test~\cite{latex}.
-This is the omega symbol $\Omega$
+In this Master?s Thesis, a context-aware mobile shopping recommender system was implemented and evaluated. A methodology for building context-aware recommender systems was adopted and adapted. Following the methodology, a recommendation approach and the reasoning behind why this specific approach was chosen will be given. The development and design process together with the evaluation process will be presented.
 
+This chapter will shed light on the motivations behind the developed system and the goals set out to meet. The last section will give a brief outline on how this thesis is structured.
 
-\subsection{Subsection}
-See~\autoref{fig:sample}.
+\section{Motivation} \label{sec:mv}
 
-\begin{figure}[htsb]
-  \centering
-  \includegraphics{logos/tum}
-  \caption[Example figure]{An example for a figure.}\label{fig:sample}
-\end{figure}
+In this thesis a mobile shopping recommender system developed for recent touch-based Android phone handsets will be displayed. Contextual information will be integrated into the recommendation process so as to provide context-aware recommendations.
 
-\section{Section}
+Mobile platform is selected in this thesis because it is the trend. Mobile computing has caught the attention of the research community for quite some time, many experimental systems and applications have been developed but were not vastly put in real use because of the limitation of the mobile devices and the infrastructure outside. However, around six years ago, the introduction of new mobile platforms such as iPhone and Android changes everything drastically. The new touch-based interaction method and the improvement of the computing power of mobile devices brings new possibilities to application development. The constant development of wireless network bandwidth and the decrease in the price of both the mobile devices and the network fee help to create a large customer base for developers. The reduce in the size of mobile devices also makes it easier to carry them around. According to reports from Market Research firm Gartner, by the year 2016, an estimated 310B downloads and \$74B in revenue is predicted from app stores [39]. 
 
-See~\autoref{tab:sample}, \autoref{fig:sample-drawing}, \autoref{fig:sample-plot}, \autoref{fig:sample-listing}.
+In particular, Android will be selected at the target mobile platform in this thesis. Android is the most popular mobile platform and is still growing very fast - every day more than one million new Android devices are activated worldwide. The openness and the powerful development framework make Android applications be deployable across a wide range of devices. On the other hand, from the developer's perspective, the Android Developer Tools offer a full Java IDE with advanced features for developing, debugging, and packaging Android apps that can efficiently facilitate the development.
 
-\begin{table}[htsb]
-  \caption[Example table]{An example for a simple table.}\label{tab:sample}
-  \centering
-  \begin{tabular}{l l l l}
-    \toprule
-      A & B & C & D \\
-    \midrule
-      1 & 2 & 1 & 2 \\
-      2 & 3 & 2 & 3 \\
-    \bottomrule
-  \end{tabular}
-\end{table}
+In addition, mobile devices are generally becoming an essential part of people?s daily life. People can carry them around and have access to internet anywhere at anytime. They have simplified and changed the way people do business, do shopping, travel and communicate. This mobility characteristic also arise the attention of context-aware systems. Especially for recommender systems, which and to what degree can context factors affect people?s perception of the recommended items and how can contextual information be effectively integrated into existing recommender systems need to be studied. As a result, the focus of this thesis shifted to implementing and evaluating context-aware recommender systems using Active Learning strategies on mobile platforms. To be more specific, a clothes shopping scenario will be used in this thesis because it is not much studied but closely related to people?s daily life.
 
-\begin{figure}[htsb]
-  \centering
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}[node distance=3cm]
-    \node (R0) {$R_1$};
-    \node (R1) [right of=R0] {$R_2$};
-    \node (R2) [below of=R1] {$R_4$};
-    \node (R3) [below of=R0] {$R_3$};
-    \node (R4) [right of=R1] {$R_5$};
+\section{Goals} \label{sec:gl}
 
-    \path[every node]
-      (R0) edge (R1)
-      (R0) edge (R3)
-      (R3) edge (R2)
-      (R2) edge (R1)
-      (R1) edge (R4);
-  \end{tikzpicture}
-  \caption[Example drawing]{An example for a simple drawing.}\label{fig:sample-drawing}
-\end{figure}
+In mobile exploratory scenarios, the user does not know exactly what she/he is looking for, or she/he might have a general idea of the product to buy (e.g., buy clothes for sports purpose). In the ideal case, the system should be designed not to require any query input from the user at the start of the recommendation session. Instead, to best predict user?s preference, a diverse set of items will be presented so as to ensure that the user can start general and determine the direction to go. However, if the diversity of items increases, further personalization is required for initial recommendation to ensure the accuracy and efficiency of the system. At this time, context-aware information such as weather, budget and shopping intent can be an important clue of the user?s current interest. 
 
-\begin{figure}[htsb]
-  \centering
+Few studies have been done on the integration of context-aware information into an active learning mobile recommender system [5, 12, 26]. The goal of this paper is to explore if the integration of context-aware information using case-based recommendation approach can improve the user experience of mobile recommender system that integrates a conversation-based Active Learning strategy.
 
-  \pgfplotstableset{col sep=&, row sep=\\}
-  % This should probably go into a file in data/
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1000 \\
-    2 & 1500 \\
-    3 & 1600 \\
-  }\exampleA
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1200 \\
-    2 & 800 \\
-    3 & 1400 \\
-  }\exampleB
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}
-    \begin{axis}[
-        ymin=0,
-        legend style={legend pos=south east},
-        grid,
-        thick,
-        ylabel=Y,
-        xlabel=X
-      ]
-      \addplot table[x=a, y=b]{\exampleA};
-      \addlegendentry{Example A};
-      \addplot table[x=a, y=b]{\exampleB};
-      \addlegendentry{Example B};
-    \end{axis}
-  \end{tikzpicture}
-  \caption[Example plot]{An example for a simple plot.}\label{fig:sample-plot}
-\end{figure}
+The system designed should be flexible enough to include different types of mobile context information. In this case, four types of context will be considered: physical context, social context, interaction media context and modal context.
 
-\begin{figure}[htsb]
-  \centering
-  \begin{tabular}{c}
-  \begin{lstlisting}[language=SQL]
-    SELECT * FROM tbl WHERE tbl.str = "str"
-  \end{lstlisting}
-  \end{tabular}
-  \caption[Example listing]{An example for a source code listing.}\label{fig:sample-listing}
-\end{figure}
+The interaction design of the system will follow the Android Design Principles to ensure an integrated experience and user?s acceptance of the system. In mobile shopping, the mobile users are believe to be less patient, mostly on the move and likely to be distracted easily, context information retrieval, thus, should be kept as simple as possible and not too much user input should be required. If possible, automatic detection can be used to minimize user input.
+
+To successfully design and develop the context-aware recommender system, a methodology for developing context-aware recommender system is used and adapted to the current system. Firstly, context factors relevance will be assessed using a web tool developed for that. Then a case-based recommendation algorithm will be designed and developed based on that. After that, a context-aware mobile recommender system that utilizes the developed algorithm will be developed and evaluated.
+
+\section{Outline} \label{sec:ol}
+
+The thesis is divided into five chapters. The current one (chapter 1), introduces the ideas, motivations and goals behind this thesis.
+
+The second chapter lays a foundation for the system developed in this thesis. It give a general introduction to recommender system, case-based recommender systems, active learning recommender system and context-aware recommender system. The baseline system used for evaluation in this thesis is also introduced in this chapter. Finally, a methodology adopted in this thesis for developing context-aware recommender systems is introduced.
+
+The third chapter follows the methodology in chapter two and explains step by step how the system was built. First, an experiment for acquiring context relevance is explained. Then a proposed approach together with the algorithm for integrating contextual information into existing recommender system using Active Learning strategies is explained. Finally, the developed context-aware mobile recommender system prototype Shopper is introduced. 
+
+Shopper is evaluated in chapter fourth. It is shown that Shopper received a better evaluation in prediction accuracy, decision efficiency and general satisfaction compared with the similar, but not context-aware baseline system introduced in chapter three.
+
+The paper ends with a summary of the achievements and discussion of possible directions for future work.
+

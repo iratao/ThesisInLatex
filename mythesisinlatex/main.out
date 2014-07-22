@@ -1,9 +1,9 @@
 \BOOKMARK [0][-]{Doc-Start}{Acknowledgments}{}% 1
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Section}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.1}{Subsection}{section.1.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Section}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Goals}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Outline}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{Foundations}{}% 7
 \BOOKMARK [1][-]{section.2.1}{Recommender System}{chapter.2}% 8
 \BOOKMARK [2][-]{subsection.2.1.1}{Case-Based Recommender System}{section.2.1}% 9
@@ -13,3 +13,10 @@
 \BOOKMARK [2][-]{subsection.2.1.5}{Mobile Recommender System}{section.2.1}% 13
 \BOOKMARK [2][-]{subsection.2.1.6}{Baseline System}{section.2.1}% 14
 \BOOKMARK [2][-]{subsection.2.1.7}{Methodology for Developing CARS}{section.2.1}% 15
+\BOOKMARK [0][-]{chapter.3}{Build the System}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Acquiring Context Relevance}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{Analysis of Context Relevance}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{The Proposed Approach}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.3}{Towards Case-Based Recommender Systems}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Case Model}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.5}{Similarity Assessment}{chapter.3}% 22

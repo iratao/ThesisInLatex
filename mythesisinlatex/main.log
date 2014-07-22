@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  22 JUL 2014 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  22 JUL 2014 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,10 +1291,68 @@ File: float.hak 2013/12/19 v3.12 KOMA-Script package (hacking package float)
 Package scrhack Info: redefining \newfloat on input line 161.
 Package scrhack Info: redefining \listof on input line 161.
 Package scrhack Info: undefining \float@addtolists on input line 161.
-))
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks40
+\ex@=\dimen197
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen198
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count155
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count156
+\leftroot@=\count157
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count158
+\DOTSCASE@=\count159
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen199
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count160
+\c@MaxMatrixCols=\count161
+\dotsspace@=\muskip11
+\c@parentequation=\count162
+\dspbrk@lvl=\count163
+\tag@help=\toks41
+\row@=\count164
+\column@=\count165
+\maxfields@=\count166
+\andhelp@=\toks42
+\eqnshift@=\dimen200
+\alignsep@=\dimen201
+\tagshift@=\dimen202
+\tagwidth@=\dimen203
+\totwidth@=\dimen204
+\lineht@=\dimen205
+\@envbody=\toks43
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks44
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
 (./settings/settings.tex) (./settings/commands.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/ix-name.def
@@ -1316,7 +1374,7 @@ Package selinput Info: Encoding `x-iso-8859-15' selected on input line 13.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -1333,7 +1391,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 15.
@@ -1349,21 +1407,20 @@ Package nag Info: Command \RaggedLeft not defined, skipping amendment on input
 line 15.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
  line 15.
-\big@size=\dimen197
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen198
-\scratchbox=\box43
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen199
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count167
+\scratchdimen=\dimen206
+\scratchbox=\box45
+\nofMPsegments=\count168
+\nofMParguments=\count169
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen207
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
+\everyMPtoPDFconversion=\toks46
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1379,7 +1436,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count161
+\c@lstlisting=\count173
 Package scrhack Info: undefining \float@addtolists on input line 15.
 
 ABD: EveryShipout initializing macros
@@ -1403,7 +1460,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box44
+\AtBeginShipoutBox=\box46
 Package hyperref Info: Link coloring OFF on input line 15.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1412,13 +1469,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count162
+\c@section@level=\count174
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
-
-(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1426,29 +1481,30 @@ Package nag Info: Command \hc@caption not defined, skipping amendment on input
 line 15.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 15.
- (./pages/cover.tex
-<logos/tum.pdf, id=67, 53.9634pt x 28.42714pt>
+
+(./pages/cover.tex <logos/tum.pdf, id=7, 53.9634pt x 28.42714pt>
 File: logos/tum.pdf Graphic file (type pdf)
- <use logos/tum.pdf>
+
+<use logos/tum.pdf>
 Package pdftex.def Info: logos/tum.pdf used on input line 13.
 (pdftex.def)             Requested size: 113.81102pt x 59.95639pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 25.
-
-<logos/faculty.pdf, id=68, 33.96803pt x 37.09984pt>
+ <logos/faculty.pdf, id=8, 33.96803pt x 37.09984pt>
 File: logos/faculty.pdf Graphic file (type pdf)
- <use logos/faculty.pdf>
+
+<use logos/faculty.pdf>
 Package pdftex.def Info: logos/faculty.pdf used on input line 31.
 (pdftex.def)             Requested size: 56.9055pt x 62.15744pt.
-
-[1
+ [1
 
 
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
 /tum.pdf> <./logos/faculty.pdf>]) (./pages/title.tex
 File: logos/tum.pdf Graphic file (type pdf)
- <use logos/tum.pdf>
+
+<use logos/tum.pdf>
 Package pdftex.def Info: logos/tum.pdf used on input line 5.
 (pdftex.def)             Requested size: 113.81102pt x 59.95639pt.
 LaTeX Font Info:    Try loading font information for OT1+pplx on input line 23.
@@ -1512,58 +1568,39 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10.95> not available
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 26
 .
- (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
+ [6
 
-[6
 
-
-] (./chapters/introduction.tex
+]
+(./chapters/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 8.
-File: logos/tum.pdf Graphic file (type pdf)
-<use logos/tum.pdf>
-Package pdftex.def Info: logos/tum.pdf used on input line 13.
-(pdftex.def)             Requested size: 53.96324pt x 28.42706pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 93.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 94.
-)
-(./chapters/foundation.texpdfTeX warning (ext4): destination with the same iden
-tifier (name{page.1}) has been already used, duplicate ignored
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 7.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Foundations}\label{chapter:foundation} [1
+l.14 
+      [1
 
 
 
-] [2]
+] [2]) (./chapters/foundation.tex [3]
 Chapter 2.
+
+LaTeX Warning: Citation `ref:22' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation `ref:21' on page 4 undefined on input line 9.
+
 LaTeX Font Info:    Try loading font information for TS1+pplx on input line 11.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-) [3
+) [4
 
 
 ]
@@ -1572,63 +1609,104 @@ Overfull \hbox (1.1414pt too wide) in paragraph at lines 20--21
 ed rec-om-mender and constraint-
  []
 
-[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]) [19]
-Package tocbasic Info: character protrusion at lof deactivated on input line 38
-.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 22.
+[5] [6]
 
-(./main.lof)
+LaTeX Warning: Reference `eq:similarity' on page 7 undefined on input line 55.
+
+
+LaTeX Warning: Reference `eq:symsim' on page 7 undefined on input line 59.
+
+
+LaTeX Warning: Reference `eq:asymsim' on page 7 undefined on input line 64.
+
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19])
+(./chapters/buildTheSystem.tex [20]
+Chapter 3.
+[21
+
+
+] [22] [23] [24] [25] [26]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 102.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [27]
+Package tocbasic Info: character protrusion at lof deactivated on input line 39
+.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [20
+ [28
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 39
+Package tocbasic Info: character protrusion at lot deactivated on input line 40
 .
- (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- (./main.bbl [21
+
+(./main.bbl [29
 
 
 ])
 No complaints by nag.
-[22
+[30
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4860467BD4DDC20C81BA52A6D1435A0C;998.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  2A12D2C3CEEA931A93028114F4E34BD9;1476.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 34951 strings out of 493117
- 766389 string characters out of 6135433
- 1003061 words of memory out of 5000000
- 37479 multiletter control sequences out of 15000+600000
- 52136 words of font info for 227 fonts, out of 8000000 for 9000
+ 34786 strings out of 493117
+ 755590 string characters out of 6135433
+ 1002690 words of memory out of 5000000
+ 37270 multiletter control sequences out of 15000+600000
+ 52675 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,100p,1296b,2211s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,15n,83p,1328b,1055s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2014/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/public/lm/lmtt10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/u
-plr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplri8a.
-pfb>
-Output written on main.pdf (29 pages, 191441 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/lm/lmtt10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ur
+w/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/palat
+ino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/palatino/upl
+ri8a.pfb>
+Output written on main.pdf (37 pages, 209508 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 28303 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 27671 words of extra memory for PDF output out of 29859 (max. 10000000)
 
