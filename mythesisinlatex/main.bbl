@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{latex}
+Leslie Lamport.
+\newblock {\em LaTeX : A Documentation Preparation System User's Guide and
+  Reference Manual}.
+\newblock Addison-Wesley Professional, 1994.
+
+\bibitem{ref:22}
+Fabiana Lorenzi and Francesco Ricci.
+\newblock Case-based recommender systems: a unifying view.
+\newblock In {\em Intelligent Techniques for Web Personalization}, pages
+  89--113. Springer, 2005.
+
+\bibitem{ref:21}
+Francesco Ricci, Lior Rokach, and Bracha Shapira.
+\newblock {\em Introduction to recommender systems handbook}.
+\newblock Springer, 2011.
+
+\end{thebibliography}
