@@ -1,0 +1,267 @@
+\chapter{Foundations}\label{chapter:foundation}
+
+\section{Recommender System} \label{sec:rs}
+
+With the development of information technology, people can now have access to various kinds of product and services all over the world using internet without any difficulty instead of limited choices in the local shops in the old times. At the same time, people are overwhelmed by the number of options to consider. Thus Recommender Systems (RSs) as a decision support tool has become an important topic in the research study.
+
+Recommender Systems (RSs) are software tools and techniques providing suggestions for items to be of use to a user [21]. RSs try to provide personalized recommendations based on user preferences and constraints which can be either explicitly expressed as, e.g., ratings of products. or implicitly inferred from, e.g., user actions or context around. For instance, user?s navigation to a particular product page can be interpreted as user?s interest in that product.  With the introduction of the concept of context-aware RS, context such as location, weather, company can also be used for recommendation prediction. 
+
+Different recommendation techniques are used for recommendation and they are usually categorized into three categories [22,21]:
+\begin {itemize}
+	\item{Collaborative Filtering: RSs using collaborative filtering approach recommend to the active user items that are liked by other users with similar tastes in the past.}
+	\item{Content-based: RSs using content-based approach recommend items that are similar to the ones the current user liked before.}
+	\item{Knowledge-based: RSs using knowledge-based approach exploit knowledge about the customers and the application domain to reason about the items that might be of interest to the user.}
+\end{itemize}
+
+In collaborative RSs, recommendation depends on the information of current user and a large amount user/system interaction data is needed in order to find similar users and thus relevant items to recommend. In content-based RSs, only the current user information is exploited for recommendation and since content-based RSs are usually implemented as classifier systems based on machine learning research, a large enough number of user ratings is needed to train the prediction model. Both techniques are faced with a cold-start problem: not until enough examples (product ratings or pattern of user preferences) are known, the recommendations can not be useful for the user [22,23]. 
+
+This problem is even worse for clothing recommender systems. If we look into Amazon website, we can find that there are far fewer ratings for clothes than for other product like cameras or mobile phones. It is because clothing products are featured with fast updating and diverse styles, it is unrealistic to have enough ratings for all the clothing for recommendations in a short period of time. As for the application in this paper, we are trying to build a clothing recommendation system for offline shopping scenario. Different from online shopping, offline shopping is limited with location and space, which will drastically cut down the number of examples. On the other hand, user?s clothing shopping preferences change a lot with the context information like weather, temperature, mood or budget and it is difficult for content-based and collaborative RSs to adapt quickly to those changes. All these considerations motivated us to come to the third approach, knowledge-based approach. Knowledge-based RSs help to solve all these challenges by exploiting existing knowledge about the specific product domain and explicit user requirements. There is no cold-start problem because all requirements are directly elicited within a recommendation session.
+
+There are two types of knowledge-based RSs: case-based recommender and constraint-based recommender [24]. Case-based recommenders determine recommendations based on past similar cases or in other words, successful solutions, while constraint-based recommenders determine recommendations by exploiting predefined knowledge bases that contain explicit rules about relationship between customer requirements and item features.
+
+\subsection{Case-Based Recommender System} \label{sec:rs_cbrs}
+
+Case-based reasoning (CBR) is a problem solving methodology that tries to solve new problems by re-using or adapting past solutions stored in past similar cases [25]. A case models a past experience, storing both problem description and solution applied in that context. A case can be as simple as a product. It can also includes a product and the context in which the product is bought. All the cases are stored in the case base. In a typical CBR process, when the system is given a new problem to solve, it first searches in the case base for previous similar cases, then reuses or adapts the solution in those cases to the current problem. After that, the solution together with the problem will be retained as a new case in the system case base for the use of future recommendation.
+
+In paper [22], a methodology was introduced to help with applying CBR steps to the recommender systems, in which a framework was created for building CBR RSs. In this framework, a typical case-based recommendation process is composed of six steps: retrieval, reuse, revise, review, retain and iterate, which is similar to the CBR process. We will now explain each of these steps separately so as to provide a better understanding of this framework.
+
+Retrieval: Retrieval phase, as the first step of the recommendation cycle, is also the main phase and the majority of CBR recommender system. 
+
+Reuse: The cases retrieved in the last stage will be evaluated and reused in the current problem. There are various ways to reuse the cases. In the simplest cases, the solutions in the retrieved cases will be directly applied to the current problem. In more advanced cases, the retrieved cases can be used as reference set to rank candidate items [26].
+
+Revise: In the revise stage, the reused cases will be adapted to better fit to the current problem. For example, if the recommended travel location in the previous case is already closed or is too far away for the current user, then the system can replace it with another similar place that is still open or is nearby. 
+
+Review: In the review stage, the user can customize or critique the recommended items. 
+Iterate: Usually in a conversational recommender system, the critiques and customization in the review stage will be given as a feedback to the system so that the system can iteratively update its recommendations to better fit the users? preferences.
+
+Retain: Finally, at the end of a recommendation session, e.g., an item is bought or an item?s page is viewed, a new case will be created and retained in the case base for future use.
+
+\subsubsection{Case Modeling} \label{sec:rs_cbrs_cm}
+
+A case base CB can be decomposed into four sub-components: $$CB \subseteq X \times U \times S \times E$$ where $X$ is the product/content model, $U$ is the user model, $S$ is the session  model and $E$ is the evaluation model. Each case $c=(x,u,s,e) \in CB$ in the case base will be consist of four sub-elements $x,u,s,e$ which are instances of the spaces $X,U,S,E$ respectively. However it?s not a must that every case base contains all four components. 
+
+Content model $(X)$: The content model describes the product recommended or to be recommended and is usually represented as feature vectors. For example, a clothing item to be recommended in the case base can be represented as an n-dimensional vector space  $X=\prod^n_{i=1}X_i$. Each $X_i$ represents the set of possible values for a product attribute. An attribute could be the color or price or clothing type.
+
+User model $(U)$: The user model contains the user information, such as, name, address, age or user?s past interactions with the system, such as, the products bought before or the products liked before.
+
+Session model $(S)$: The session model usually contains the information about the recommendation session. It can be the context information, such as, weather, temperature, budget, shopping intent etc.
+
+Evaluation model $(E)$: The evaluation model describes the outcome of the recommendation (e.g., user?s rate).
+
+\subsubsection{Similarity Assessment} \label{sec:rs_cbrs_sa}
+
+Retrieval is the majority of case-based recommendation in which cases similar to the current problem will be retrieved. Thus the definition of similarity and the approaches to similarity assessment becomes an important topic and affects the retrieval strategy. For example, if the user submit a query to find similar clothes to the current selected one, the products? features in each case will be compared to the selected product to determine the similarity. However, if the user submit a query to find clothes to wear in the current season (e.g., summer), then the season information contained in session model in each case will be compared to the current season to determine the similarity. 
+
+Similarity assessment at case level or between user query and a candidate case is usually calculated as a weighted sum of similarity between individual feature pairs as is shown in Equation \ref{eq:similarity}: 
+\begin{equation} \label{eq:similarity}
+Similarity(t,c)=\frac{\sum_{i=1}w_i*sim_i(t_i,c_i)}{\sum_{i=1...n}w_i}
+\end{equation} 
+where the similarity between target query $t$ and candidate case $c$ is calculated as weighted sum of the individual similarities between the corresponding features of $t$ and $c$, namely $t_i$ and $c_i$. A unique weight is defined for each feature according to the level of importance in the current problem and a unique similarity function $sim_i(t_i,c_i)$ is defined for each feature according to the property of the feature. For example, consider a numeric feature such as clothes size. The maximum similarity is achieved when the size in the target query matches the one in the candidate case. The desirability of the size will decrease equally if it goes either larger or smaller. In this case, the size feature can be measured by symmetric similarity metric like the one in Equation \ref{eq:symsim} [27]: 
+\begin{equation} \label{eq:symsim}
+sim_{size}(s_t,s_c)=1-\frac{\left|s_t-s_c\right|}{range(s)}
+\end{equation} 
+
+On the other hand, consider a numeric feature such as price. If the user queries for clothes of price ¤50, it means that the user can also afford clothes with price lower than ¤50, but it may not be the case for clothes with price higher than ¤50. Thus the price feature can be measure by asymmetric similarity metric like the one in Equation \ref{eq:asymsim} [28]:
+\begin{equation} \label{eq:asymsim}
+sim_{price}(p_t,p_c)=1-\frac{\left|p_t-p_c\right|}{max(p_t, p_c)}
+\end{equation} 
+
+To evaluate the similarity of non-numeric features usually requires additional domain knowledge and hard coding the knowledge into the system using a proper a structure, e.g., an ontology.
+
+\subsection{Active Learning Recommender System} \label{sec:rs_alrs}
+
+Traditionally, Recommender Systems present items to users because those items are thought to be of interests of the users. However, RSs can also intentionally influence the presentation of items to users so that more user preferences can be elicited and learned. Active Learning (AL) helps to fulfill this goal through actively influencing which items the user is exposed to and learning from user?s feedback [29]. For example, a movie recommender system can first let the user select the genre the user is interested in and then recommend more movies from the genres selected by the user or it can first display a diverse set of movies from different genres and let the user rate or critique on them to get the user?s preferences.
+
+Usually three situations can occur when the user searches for a product: the user knows exactly what to buy; the user has a desire (e.g., want to buy clothes for work) but does not have a clear objective in mind; the user does not know precisely what to buy or just wants [22]. For users in the second and third situation, RSs augmented with AL help the user become more self-aware of their own interests and at the same time collects more information about the user that can be used for better recommendation. 
+
+AL is the process of actively selecting training points so as to observe the most informative output. AL methods can be categorized based on their primary goals:
+\begin {itemize}
+	\item{Uncertainty-based Active Learning: This approach selects training points so as to reduce uncertainty in, for example, output values, the model?s parameters or a decision boundary, etc.}
+	\item{Error-based Active Learning: This approach selects training points so as to reduce the predictive error.}
+	\item{Ensemble-based Active Learning: There are usually advantages and disadvantages for each single model. Thus a combination of different models can give a better result through compensating the disadvantages of each other.}
+\end{itemize}
+
+\subsection{Conversation-based Active Learning} \label{sec:rs_cbal}
+
+Different from standard AL methods in which the goal is to obtain ratings of representative items from users so as to improve the prediction accuracy of underlying model for the entire data set. Conversation-based AL first starts with a general set of items and then iteratively narrow down the scope of candidate items through a series of interaction cycles in which user?s preferences are elicited and learned in various ways until a final desired item is found [29]. A typical example is to first present the user with a diverse set of items and iteratively update and adapt the recommendations based on user?s critiques on item features [30]. In each iteration, the scope of candidate items is narrowed down, because user?s queries are becoming more and more concrete. This process will keep going until the scope is narrowed down to a single item or the user finds the desired item.
+
+This cycle-based conversational approach usually works because it mimics the behavior of offline shopping guide. People are usually unaware of their own interest and don?t know what is out there in the market. Through a conversational interaction, people can first explore the available products and then refine and form their preferences over each cycle. This process is also self-explained enough because user can see how the final recommendation is reached. Such conversational systems include AL by design because user preferences are learned through active interaction. There are three main approaches to perform conversation with the user [29]:
+\begin {itemize}
+	\item{Case-based Critique: This approach searches for cases similar to user?s query and then update the recommendations based on user?s critiques. During the initialization of the recommendation, no user preference initialization is required. In each iteration, a list of cases will be retrieved and be ranked according to the similarity to current user?s query. The user can then critique on the attributes of the recommended items to further filter out irrelevant items or narrow down the scope of candidate items. There can be positive or negative critiques. Positive critique can be something like "I like color red.", while negative critique can be something like "I don\textquotesingle t like jacket.".}
+
+	\item{Diversity-based: Although cases are retrieved based on their similarity to the current user?s query, diversity is also an important consideration. In each cycle of the recommendation, the system should present the most representative items in the current search space. If the recommended items are too similar to each other, it might be the case that the user dislikes all of them and have to use more steps to find the items they like. Thus the system should also consider diversity in each iteration and let the user choose the direction to go in the next step. It is especially important when user?s preferences are still not clear.}
+
+	\item{Query Editing-based: This approach allows user to repeatedly edit and submit the query in order to get better recommendations. In order to make this process be more efficient, usually, the system can make predictions of the next query or make editing suggestions to the current query so as to save user?s exploration time and help the user to narrow down to their interest area sooner. }
+\end{itemize}
+
+\subsection{Context-Aware Recommender Systems} \label{sec:rs_cars}
+
+In traditional cases where people talk to each other, context helps with increasing conversational bandwidth [1]. The current time, the location where the two people meet each other, the gestures, or the companion are all influential factors of the conversation. However, this important ability of context is largely neglected when it comes to human-computer interaction.
+
+With the development of portable computers and wireless communications, people can now carry their personal devices and have access to the mobile network anywhere at anytime. Instead of being used in a steady environment with a predictable environment, the software systems now will be installed on different devices and be used in different environments. With traditional human-computer interaction paradigms, it becomes more difficult for human and computer systems to talk to each other. Also since the customers now can be accessed at anytime through either apps on the mobile phone or other mobile devices like wristband and intelligent glasses, companies now must deliver not just competitive products but also unique, real-time customer experience [32].
+
+Among the researches that have been done in recommender systems, most existing approaches recommend most relevant items to users without taking into account the current context of the user, such as time, location or purpose. However, for recommender systems and especially those on mobile devices, it might not be sufficient to just consider item and user when making recommendations for items in specific fields like vacation package, retailing or movies, because users? preferences may often change according to the current context. For example, users may prefer to visit indoor sight spot when the weather is raining and may prefer to visit museums when they are with their young children. Similarly, in the case of clothes shopping, a user may want to buy coat when the weather is cold even though the user generally like skirt the best. A user may even don?t know what kind of clothes to buy for a certain context (e.g., what clothes to buy for hiking and what clothes to buy for running) and needs the recommender system to assist them in making purchasing decisions. Thus, it is important to incorporate the contextual information into the recommendation process so as to provide better recommendations in different circumstances.
+
+Many researches have already laid the foundation and shown the importance of context in recommender systems. Findings in behavior research shows that decision making is contingent on the context of decision making [2]. Therefore, to increase user satisfaction and prediction accuracy, RSs need to capture the real-time user preferences by integrating context into the recommender systems. Also, a number of ubiquitous computing researchers also share the hypothesis that enabling devices and applications to automatically adapt to changes in context will help to improve the user experience [3]. For example, paper [5] assess the influence of context factors to user ratings and integrate the contextual information in a mobile travel planning tool. It shows that the context-aware system is preferred to a similar variant that did not exploit contextual information in terms of efficiency, general satisfactory and serendipity.
+
+\subsubsection{What is Context} \label{sec:rs_cars_context}
+
+Context is a multifaceted concept and has been studied in various fields like computer science, cognitive science, psychology, etc. In each field, context has its own definition. To better understand how we can effectively use context in the mobile recommender systems, we need to find out the accurate definition of context in this field but not just borrow it from other areas.
+
+According to Webster?s New Twentieth Century Dictionary(1980), context is the ?whole situation, background or environment relevant to some happening or personality.? This definition is too general and can not be effectively used in context-aware recommendation systems.
+In previous researches in context-aware computing, context is usually defined either through enumerating through examples of contextual information or through categorization.
+
+Initially, context was defined as the location of the user, the identity of people near the user, the objects around and the changes in these elements [6]. After that, more factors were added to this definition. For example, Brown et al. [7] include the time of day, the season, and the temperature. Ryan et al. [8] add the physical and logical attributes of interest for a user. Dey et al. [11] include the user?s emotional and mental (focus-of-attention) status.
+
+In paper [4], the author focuses on mobile context and divides mobile context into four categories:
+\begin {itemize}
+	\item{Physical context: This includes the physical status of or around the entities and can be the time, position, activity of the user, weather, light or temperature. For example, the weather of the day might affect the travel plan of the user.}
+	\item{Social context: This includes the social status of the entities and can be the presence and role of other people around the user, or the relationship among different items. For example, a user might want to see different type of movies when s/he is with her/his boy/girlfriend and with her/his family. Also a system can recommend a user a scarf nearby that can be matched to the sweater the user just bought because of the matching relationship between the scarf and the sweater.}
+	\item{Interaction media context: This includes the device the user is currently using, or the item the user is currently browsing or have bought. }
+	\item{Modal context: This includes the states of mind of the user and can be the user?s purchasing goals, current mood, etc.}
+\end{itemize}
+
+On the other hand, in paper [9], the author gives a more operational definition of context: Context is any information that can be used to characterize the situation of entities (i.e., whether a person, place, or object) that are considered relevant to the interaction between a user and an application, including the user and the application themselves. Context is typically the location, identity, and state of people, groups, and computational and physical objects.
+
+There is an argument among researchers whether context should only include information that is automatically obtained. Although, ideally, it is hoped that no manual input is required from the user which is the best from the user experience perspective. Many researches have also been done on automatic prediction of users? context. For example, in paper [13], the author tries to use time and location to infer user?s current activity. However, up till now, the techniques for automatic context detection is still immature and requires further research, we here opted for a more inclusive definition and accept context information that are either manually obtained and automatically obtained. 
+
+\subsubsection{Context-aware Computing} \label{sec:rs_cars_cac}
+
+Context-aware computing is a mobile computing paradigm in which systems can retrieve context either explicitly or implicitly and utilize contextual information to provide relevant information or services to the user, where relevancy depends on the user?s task [14, 1]. 
+
+In summary, context can be used in three different ways in different applications [3]:
+The first way is to present information and services. It refers to the systems that present the context information directly to the user to help with the decision making of the users or the system propose appropriate selections of actions to the user. For example, in paper [15], a context-aware system was developed to present a choice of printers close to the user, but the system does not automatically book the printer or print the document for the user. 
+The second way is to automatically execute a service. It refers to the systems that act or make decisions on behalf of the user based on the current context or context changes. For example, the Google Self-Driving Car use various detectors and sensors like laser to collect and generate data (e.g., maps) that is needed to allow the car to drive itself [16]. 
+The third way is to attach context information for later retrieval. It refers to the systems that tag captured data with relevant context information so that the data can be retrieved in a different way using context.
+
+In this thesis, we combines these three approaches. We present the detectable contextual information to the user so that they can decide which context factors is important in their decision making process. Then the system will automatically recommend clothes items based on users? configuration of context settings. Once the user purchases an item, the system will record the context and the bought item as a case so that it can be used for future recommendations.
+
+\subsubsection{Context and Reasoning Processes} \label{sec:rs_cars_crp}
+
+After we know the importance and definition of context, we would like to know how the contextual information can be most effectively used by the system through studying how context affects people? reasoning processes. Paper [4] analyzes this from the psychological perspective. Psychologists Stanovich and West claims that there are two systems operating in the mind: System one operates subconsciously with little or no effort in solving the problem and system two operates allocates attention to the effortful mental activities that demand it. System1 always works under a certain context. It will generates a likely context if no context exists. For example, the music most recently played will affect your evaluation of the current music you are listening now. You may prefer music with similar style as last one because you are in a certain mood or you may prefer a music with different style because you want to try something new. 
+In traditional recommender systems, recommendation quality is often measured by utility. If we look from the utility perspective, we can see that for the user, the quality of a recommender system depends on three factors [4]:
+\begin {itemize}
+	\item{Expected Utility: What you expect an experience will make you feel.}
+	\item{Experienced Utility: The way an item (movie, travel, etc) makes you feel in the moment.}
+	\item{Remembered Utility: Once you had an experience (e.g., a movie), future choice will be based on what you remember about that.}
+\end{itemize}
+
+These three factors are produced, measured and utilized at different stages of the recommendation. The recommender systems predict recommendations based on the ?remembered? utility data. Users accept or reject based on expected utility. Users? experienced utility after consuming the item will be transferred into remembered utility and be used for the next round recommendation. So, in order to predict more precisely how likely a user may like an item, the system should know how to accurately measure these three types of utilities. 
+
+Researchers show that those utilities are affected and can be measured by some basic rules:
+
+\begin{itemize}
+\item{Peak-end Rule} \label{peakEndRule}
+
+D.Kahneman shows that what we remember about an experience is determined by how it felt when it was at its peak and how it felt when it ended. People rely on this summary later to remind how the experience felt and decide whether to have that experience again. 
+
+Based on this rule, the recommender system should be able to detect and record users? feelings at the peak and at the end either explicitly or implicitly. For example, the system can ask for rating after the user have bought and tried the clothes as an end feeling and the system can record the purchasing of an item as the peak feeling. Those records can then be used as measurements of the utility of this item.
+
+\item{Anchoring} \label{anchoring}
+
+People measure the expected utility of an item by comparing it to some other items. For example, the shop will always put clothes with original price beside clothes with discount. Although most people will choose to buy those discount clothes, the clothes with original prices actually act as anchors against those discount clothes and make the prices of those discount clothes cheaper and more reasonable. So the recommender system should utilize this psychological rule and try to explain their recommendations in a more efficient way to increase the users? expected utility. For example, the system can put the original price of a clothes item when it is on sale at a more conspicuous place.
+
+\item{Opportunity Cost} \label{opportunityCost}
+
+Once you make a choice from several options, opportunity cost is the opportunities you need to give up if you choose a different option. Economists point out that the quality of any given option can not be assessed in isolation from its alternatives. For example, when recommending a discount clothes, the system can show some other similar clothes that do not have discounts to make the current recommendation be more appealing. Or the system can use some special icons to differentiate the items recommended for special contexts from other recommendations to decrease the opportunity cost like what was done in paper [5], the author mark some of the recommendations with an icon showing a small clock and a green arrow to show that these recommendations are especially suited for the current context.
+
+\end{itemize}
+
+
+\subsubsection{Obtaining Contextual Information} \label{sec:rs_cars_oci}
+
+The contextual information can be obtained in various ways including:
+\begin{itemize}
+\item{Explicitly}
+
+For contextual information that can not be detected automatically, the system can directly ask for it or elicit it from relevant people or other sources. 
+\item{Implicitly}
+
+For contextual information that can be automatically detected, there is no need for the system to interact with the user or other contextual information for the data. The system can just implicitly gather the information without disturbing the user.
+\item{Inferring}
+
+The contextual information can also be inferred from other existing data known about the users and other entities. From the user experience perspective, it may help with enhancing the user experience because it reduce the manual input the user need to provide. However, this approach requires a predictive model which needs to be trained on appropriate data. Some research in this space already exists. In paper [12], the form of transportation can be inferred by the speed of the user using a decision tree (DT) followed by a first-order discrete Hidden Markov Model (DHMM). For clothes shopping recommender systems, we can also use user?s location (e.g., which area of the store the user is in) and movement to detect user?s current interest like whether or not they want buy male or female clothes, whether they want to buy sports clothes or formal clothes. However, because the indoor location detection technology is still not mature enough, we put this as future work in our thesis.
+\end{itemize}
+
+\subsubsection{Relevance of contextual information} \label{sec:rs_cars_rci}
+
+It is pointed out in paper [2] that not all contextual information is relevant or useful for recommendation purposes. It various for different applications and for different users and it is usually unclear which contextual factors are important and to what degree. 
+
+There are several approaches to determining the relevance of context factors. It can be either done manually, e.g., utilising the domain knowledge of the recommender system?s designer or the market expert, or automatically, e.g., analyse existing ratings data using approaches from machine learning, data mining and statistics during data preprocessing phase. In this paper, we follow the second approach mentioned above and adopted the methodology in paper [18] to quantitatively assess the relationship between contextual factors and users? intention to purchase. Traditionally, ratings data is collected in real situations which is time and energy consuming because enough data need to be collected in different context settings and it is not always the case that the ideal context situation will appear. In this methodology, contextual situations are simulated to more easily capture the data where users are asked to judge whether a contextual factor will affect their intention to purchase the item given a certain contextual condition. About how we determine the relevance of context factors using this methodology, please refer to section XX.
+
+\subsubsection{Incorporating Context into Recommender Systems} \label{sec:rs_cars_icrs}
+In paper [2], different approaches to incorporating contextual information into recommender systems are categorized into two groups:
+\begin{itemize}
+\item {Recommendation via context-driven querying and search:}
+This group refers to the systems that use contextual information and/or user?s specified interest to query or search a repository of resources (e.g., movies) and present the most appropriate result to the user. The contextual information is obtained directly from the user or the environment. The resources in the repository are tagged with contextual information while collecting them.
+
+\item{Recommendation via contextual preference elicitation and estimation:}
+This group refers to the systems that try to model and learn user preferences. Based on the data collected through observing user behaviors or from user?s preference feedback on previously recommended items, the system will try to model users? context-aware preferences and generate recommendations either through applying traditional recommendation approaches (e.g., context-based recommendation or collaborative filtering) or through applying various data analysis techniques from data mining or machine learning.
+
+\end{itemize}
+
+\subsection{Mobile Recommender System} \label{sec:rs_mrs}
+
+With the increasing of the computation power of mobile devices and the improvement of mobile network technologies, mobile phones are becoming a primary platform for information access [40]. This similar problem of information overload from PCs is also emerging in mobile devices and is becoming even more serious. Thus more and more researches have been on on deploying and developing recommender systems on mobile platforms so as to increase the usability of mobile systems providing personalized and more focused content and to solve the information overload problem. 
+
+However, existing recommendation approaches can not be directly applied to mobile platform because of two main reason. Firstly, mobile devices provide a different computing environment compared to PCs and has a lot of limitations and potential disadvantages. Mobile devices are of a smaller size compared to PCs and thus have limited screen size, computing power and data storage. Although users can read and understand the content displayed on small screens, it is still difficult for them to finish a recommendation session on them [40]. Users of mobile phones are usually less patient and be on the move, and thus have unstable network connection. They are usually less patient and tend to spend less time on mobile applications compared to PC softwares. So how to help users reach their goals in a short period of time efficiently is an important for mobile systems. 
+
+Secondly, mobile devices provide some extra characteristics and functionalities that can be exploited by recommendation approaches. The first characteristic is ?context-awareness?, i.e., the knowledge of user?s current context can be for easily detected and fetched either explicitly or implicitly. Nowadays, mobile devices can be equipped with multiple sensors. For example, motions sensors can measure acceleration forces and rotational forces along three axes. Air temperature and pressure can be measured by environmental sensors like barometers. User?s current outdoor location can be detected by GPS and even indoor locations can also be detected using, for example, iBeacon promoted by Apple [41]. The second characteristic is ubiquity [40], i.e., the ability to deliver the information and services to mobile users wherever they are, and whenever they need. This characteristic has put forward new challenges for mobile applications and services. Since users are interacting with the mobile applications more frequently and in more diverse set of contextual scenarios, the influence of the changes of the context conditions is also larger, hence the level of personalization, efficiency and accuracy is also higher.
+
+As it can be seen, the constant changing of context conditions is a challenge for mobile recommender systems. On the other hand, mobile RSs can also benefit a lot from user?s current contextual information. Thus context-aware recommender system has become an important research field in recommender systems, especially for mobile RSs. 
+
+
+\subsection{Baseline System} \label{sec:rs_bs}
+
+In paper [30], an offline shopping recommender system was developed on mobile platform utilizing conversation-based Active Learning strategy. Based on this system, we are going to build a context-aware mobile recommendation system using active learning strategies and see whether integrating of context-aware recommendation technique can help to improve the recommendation. So before we talk about the application developed in this thesis, we are going to first introduce the base system in this section.
+
+This system is a conversation-based recommender system that actively select training points for user critiques so as to further adapt the recommendation according to the learned user preference from user?s critiques until a satisfactory item is found. The user can positively or negatively critique on the item features and the system will decide whether to find more items similar to the current critiqued item or to refocus and select more diverse set of items. It is argued that especially in an exploratory scenario such as going shopping without having a specific item in mind, the user don?t need to give a search query at the beginning of the recommendation. Thus a case-based recommendation approach using critiquing as feedback is adopted in the system. 
+
+Results show that the conversation-based Active Learning strategy is suitable for mobile situation and diversity-based information retrieval is preferred to only similarity-based retrieval method regarding prediction accuracy, user effort and the intention to return to the system.
+
+Standard AL methods try to obtain ratings of representative training points from users so as to improve the predictive accuracy of the underlying recommender systems which are usually based on model-based approaches. Conversation-based AL methods, on the other hand, can quickly adapt to user?s current need by starting from a general set of recommendation and updating and narrowing down the scope of interest iteratively according to user?s feedback in each conversation cycle. It is especially suitable for users who do not have a clear preference at the beginning. Especially, regarding the clothes shopping scenario, it is unlikely that the user always wants to buy the same kind of items. Fashion changes, user?s taste also changes. At some point, the user will look for trousers, the next time for shirts. When the user is on a tight budget, she/he will prefer cheaper clothes, but some other day they may have more spendable cash available. Conversation-based system can quickly learn and adapt to those changes compared to a static model.
+
+Since the system is used on a mobile platform, users are usually less patient than desktop users because of the limited interface space, the continuously moving state and the fact that they can be fully focus on the application because they also need to interact with real world objects around, case-based critiquing is used as a feedback in the conversational system, because in this case users don?t have to specify the exact preference at start which requires a lot of input and cognitive effort. Furthermore, the system does not rely on ratings from other users to infer recommendations as is done in collaborative filtering systems because data collection is time and resource consuming and also has privacy concerns. Case-base critiquing method is also suitable in this situation because it does not require any large-amount of pre-existing ratings.
+
+Concerning all the factors above, an algorithm that can be used in conversation-based Active Learning systems using case-base critique as feedback by extending an existing algorithm called Adaptive Selection in paper [31].
+
+Adaptive Selection (AS) is a conversation-based recommendation algorithm that uses user?s critiques as feedback between cycles. It differentiates itself from traditional similarity-based retrieval method by introducing a new diversity-enhancing technique so that a more diverse set of recommendations can be retrieved when the system detects that it is not homing in on the target region. If the system is heading in the right direction, the items most similar to the current query will be retrieved using similarity-based retrieval method.
+
+AS detects whether the new recommendations are satisfying or not through, what  McGinty and Smyth call, carrying the preference. In each cycle, the last critiqued item will be included in the new recommendations. It is argued that if the user keeps critiquing on the carried item, it is indicated that the new recommendations are not satisfying and the system should refocus and show more diverse set of items in the next cycle. Otherwise, the system should refine and show more similar items.
+
+\textbf{TODO}
+
+\subsection{Methodology for Developing CARS} \label{sec:rs_methodology}
+
+There are four main issues that influence the successful design of CARSs [5]. The first issue is to find out the contextual information worth considering while generating recommendations. As was discussed in section xx.xx, not all contextual information is relevant or useful for recommendation purpose. After the context factors are selected, they can be integrated into the recommendation process either through context-driven querying and search or through contextual preference elicitation and estimation approach as was discussed in section xx.xx. Four both approaches, user?s in-context preferences knowledge need to be collected for either building knowledge bases or training predictive model. However this is a time and resource consuming process. Thus the second issue is to find an effective way for the collection of training data. After the recommendation approach is built, a complete recommendation system can be generated. Thus the third problem is to develop an efficient recommendation system using the given recommendation approach. The fourth problem is the interface design and visualization problem, including useful item description and explanations for the recommendation.
+
+Paper [5] developed a methodology for solving these four issues and to support the development cycle for CARS. This methodology comprises four steps: determining which contexts are interesting to study; acquiring user ratings in specific contexts of interest; predicting ratings given a specific context; context-aware recommendation visualisation and updating. In this thesis, we are going to adapt and apply this methodology to our system development. We are going to explain how each of these steps are implemented in this thesis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
