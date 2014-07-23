@@ -20,3 +20,24 @@
 \BOOKMARK [1][-]{section.3.3}{Towards Case-Based Recommender Systems}{chapter.3}% 20
 \BOOKMARK [1][-]{section.3.4}{Case Model}{chapter.3}% 21
 \BOOKMARK [1][-]{section.3.5}{Similarity Assessment}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.6}{Explanation Generation}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.7}{Interaction and Interface Design}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Evaluation}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Motivation and Goals}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{Data Set}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.2.1}{Data Set for Clothes Items}{section.4.2}% 28
+\BOOKMARK [2][-]{subsection.4.2.2}{Data Set for Context Case Base}{section.4.2}% 29
+\BOOKMARK [1][-]{section.4.3}{Test Setup}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.3.1}{Testing Framework}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.2}{Testing Procedure}{section.4.3}% 32
+\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.1}{Participants}{section.4.4}% 34
+\BOOKMARK [2][-]{subsection.4.4.2}{Overview}{section.4.4}% 35
+\BOOKMARK [2][-]{subsection.4.4.3}{Prediction Accuracy}{section.4.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.4}{Decision Efficiency}{section.4.4}% 37
+\BOOKMARK [2][-]{subsection.4.4.5}{Context Benefits}{section.4.4}% 38
+\BOOKMARK [2][-]{subsection.4.4.6}{Explanation Benefits}{section.4.4}% 39
+\BOOKMARK [2][-]{subsection.4.4.7}{System Preference}{section.4.4}% 40
+\BOOKMARK [2][-]{subsection.4.4.8}{Informal Feedback}{section.4.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.9}{Correlation Analysis}{section.4.4}% 42
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 43

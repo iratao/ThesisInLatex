@@ -99,24 +99,45 @@ Here $range_i$ is the difference between the maximum and minimum value of a nume
 By using the previously discussed case model and query structure, the feature value vectors of context factors describing the context situation in both structures can be fed into the similarity metric. First, for all the context factors submitted in the user? query (currentContext), we will calculate the similarity to the target context factors (targetContext) in the cases. In some cases, the targetContext may not contain context factors that are specified by the user (e.g., the user enables the context factor shopping intent and budget, but the targetContext only contains budget). In some other cases, the currentContext may not contain some context factors contained in the targetContext. So when computing similarities, we use user specified context factors as base and only consider the similarities between context factors specified by the user. The context factors contained in the targetContext but not in the currentContext will be ignored, because the user chooses to ignore those factors. If the targetContext does not contain the context factors specified in currentContext, the similarity will be added by $1* w_i$. ($w_i$ here corresponds to the feature factor weight).
 
 The simplified similarity metric is displayed as follows:
-\begin{lstlisting}[frame=single,caption=The simplified similarity metric]
-define getSimilarity(query, case)
-    targetContext = getCaseContext(case)
-    currentContext = getQueryContext(query)
+\begin{algorithm}
+\caption{The simplified similarity metric}
+\label{list:similarity}
+\begin{algorithmic}
+\Function{getSimilarity}{$query, case$} 
+	\State $targetContext \gets getCaseContext(case)$
+	\State $currentContext \gets getQueryContext(query)$
+	\ForAll{$context factors defined in targetConetxt$}
+		\If{the $targetContext$ contains the current context factor in $currentContext$}
+			\State $sim \gets sim +  factorSimilarity(\pi_f(targetContext), \pi_f(currentContext))$
+			\State $weight \gets weight + getWeight(case,\pi_f(targetContext))$
+		\Else
+			\State $sim \gets sim +  1*getWeight(case,\pi_f(targetContext))$
+			\State $weight \gets weight + getWeight(case,\pi_f(targetContext))$
+		\EndIf
+	\EndFor
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
 
-    for all context factors defined in targetConetxt
-        if the targetContext contains the current context factor 
-        in currentContext
-            sim += factorSimilarity($\pi_f$(targetContext),
-            	$\pi_f$(currentContext))
-            weight += getWeight(case,$\pi_f$(targetContext))
-        else
-            sim += getWeight(case,$\pi_f$(targetContext))
-            weight += getWeight(case,$\pi_f$(targetContext))
-    endfor
-    sim = Math.sqrt(sim/weight)
-return sim
-\end{lstlisting}
+After the similarities of the cases retrieved are calculated, they will be first ranked according to the calculated similarity, the most similar the first. Then we use the bounded greedy selection algorithm to select and rank the cases based on the diversity of items contained in those cases. 
+
+\section{Explanation Generation} \label{sec:eg}
+
+The learned factor importance weights contained in each case will be used for generating explanations for the recommendations.  Analyzing the learned importance weights one can generate explanation based on the values of these parameters. More specifically, given a case that includes an item $i$ and a context situation $c$ in which a set of context factors $(c_1, ..., c_k)$ as well as the corresponding factor weights $(w_1, ..., w_k)$ are specified, we first find out the set of context factors $(c\prime_1, ..., c\prime_j)$ that overlap with the context factors specified in user?s query as well as the corresponding factors weights $(w\prime_1, ..., w\prime_j)$. Then we identify a fixed number of the context factors $f, g, h$ (in this thesis, at most three context factors will be identified), among those overlapped context factors, with the highest importance weights $w\prime_f, w\prime_g, w\prime_h$. If the number of overlapped context factors is smaller than the fixed number, then the whole set of overlapped context factors will be used. After those identified context factors is ranked in descending order based on their corresponding weights, they will be used to generate a positive explanation for recommending item $i$. For example, if item $i$ (e.g., a dress) is recommended in the contextual situation ?the shopping purpose is for party, the user is a budget buyer and the temperature is hot? and the overlapped contextual conditions are ?the shopping purpose is for party? and ?the user is a budget buyer?, we observe factor ?budget? has a higher importance than ?shopping purpose?, so we explain that the dress is recommended because ?other user bought similar clothes when the she/he is a budget buyer and the shopping purpose is for party?.
+
+\section{Interaction and Interface Design} \label{sec:eg}
+
+In this section we illustrate the main features of Shopper, a mobile context-aware recommender system. Shopper is a Android application built based on a personalized recommender system using conversion-based active learning strategy developed in paper [30]. Shopper integrates contextual information using case-based recommendation approach into this system so that users can obtain recommendations adapted to the recommendation context. The detail of the case-based recommendation approach has been discussed before in section xx.xx. To get an initial set of recommendations, the user makes a recommendation request specifying contextual conditions and then a list of clothing items (including pictures and descriptions) will be returned. Those recommendations are obtained through searching for items bought by other users under similar items. Then the user can critique and update the recommendations iteratively to get the most satisfying item. We will not describe this system illustrating a typical interaction.
+
+In the initial step of the interaction with Shopper the user normally sets the current shopping context. Figure xx shows the GUI for enabling and setting the values of the selected contextual factors. It is built using Android's Preference APIs so that the settings interface will be consistent with the user experience in other Android apps (including the system setting). Here we can see the user can switch on/off some of these factors, e.g., ?Time of the day?  or ?Weather? using checkbox. When these factors are switched on the recommender system will take into account their current values (conditions) by querying a third party service. For example, to get the current weather and temperature, the system will query the Yahoo weather API and parse the returned XML file for the target information. For some other context factors, e.g., ?Budget? or ?Intent?, the user can switch them on or off by selecting the ?Off? option in a pop up dialog. When those factors are switched on, the user need to provide the value manually by selecting among the options in a pop up dialog as in Figure xx (right). After the user close the dialog, the selected value will be shown as subtitle under the corresponding item line so that the user can easily have a clear view of what are enabled and selected. The full set of contextual factors is the same as in the web application described earlier and their values could be found in Table xx. The contextual conditions: distance, day of the week, temperature, weather, time of the day, crowdedness and season are automatically obtained from third party services. The remaining contextual conditions, if the user has enabled them, must be entered manually by the user.
+
+After the user has enabled some contextual factors and provided the values for them, the system can be requested for recommendations. A short number of recommendations (nine in this system) will be represented to the user as depicted in Figure xx. If the user is interested in any of the item, she/he can click on the picture and see the detail page of the item as depicted in Figure xx. In the detail view, the user can see an explanation of the reason why this item is recommended to the user because we believe explanation will boost the transparency and user?s trust to the system. A typical explanation can be ?Other user bought similar clothes when they are feeling like a party animal, they are a budget buyer, it is weekend.? Those are the contextual conditions that are most influential for recommending the current clothes item (as was explained in previous section). 
+
+The initial consideration is to put the explanation in the main view so that they can be more directly observed by the user. However, it can be seen that there is already critiques explanation in the main view. Considering the limited space of mobile devices, the user experience will be reduced if too much text is displayed together. Moreover, it might be the case that each item has a different reason for being recommended. For example, if a user requires for recommendation of clothing item for context situation ?budget buyer, for work and for cold temperature?. One case satisfying contextual condition ?budget buyer? and another case satisfying contextual condition ?for work and for cold temperature? can all be recommended to the user in this case. Thus it is better the put the explanation in the detail page of each item separately.
+
+In the detail view, the user will also see an explanation of the location of the clothes as well as a map view of the location of the clothes relative to user?s current location as depicted in Figure xx. For users who only want to find clothes nearby, it is an important factor for purchasing decision. If the user is not satisfied with the recommended clothes, she/he can critique on the item features to iteratively update the recommendations. This step corresponds to the review and iterate step in case-based recommendation as was discussed in section xx.xx. It relies on the main functions of the system in paper [30].
+
+If the user finds the ideal item, she/he can enter the detail view and click on the button ?select and finish? (Figure xx.xx). Then the selected item together with the current contextual situation will be recorded as a new case in the system case base. 
 
 
 

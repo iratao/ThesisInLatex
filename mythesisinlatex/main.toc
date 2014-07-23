@@ -29,3 +29,37 @@
 \contentsline {section}{\numberline {3.3}Towards Case-Based Recommender Systems}{24}{section.3.3}
 \contentsline {section}{\numberline {3.4}Case Model}{25}{section.3.4}
 \contentsline {section}{\numberline {3.5}Similarity Assessment}{26}{section.3.5}
+\contentsline {section}{\numberline {3.6}Explanation Generation}{27}{section.3.6}
+\contentsline {section}{\numberline {3.7}Interaction and Interface Design}{28}{section.3.7}
+\contentsline {chapter}{\numberline {4}Evaluation}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Motivation and Goals}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Set}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Data Set for Clothes Items}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Data Set for Context Case Base}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Test Setup}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Testing Framework}{34}{subsection.4.3.1}
+\contentsline {subsubsection}{\nonumberline Prediction Accuracy}{34}{section*.11}
+\contentsline {subsubsection}{\nonumberline Decision Effort}{34}{section*.12}
+\contentsline {subsubsection}{\nonumberline Context Benefits}{35}{section*.13}
+\contentsline {subsubsection}{\nonumberline Explanation Benefits}{35}{section*.14}
+\contentsline {subsection}{\numberline {4.3.2}Testing Procedure}{35}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Results}{37}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Participants}{38}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Overview}{38}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Prediction Accuracy}{39}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Decision Efficiency}{39}{subsection.4.4.4}
+\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{39}{section*.16}
+\contentsline {subsubsection}{\nonumberline Critiquing Time}{39}{section*.17}
+\contentsline {subsubsection}{\nonumberline Ease of Use}{40}{section*.18}
+\contentsline {subsubsection}{\nonumberline Effectiveness}{40}{section*.19}
+\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{41}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{41}{subsection.4.4.6}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{41}{section*.20}
+\contentsline {subsubsection}{\nonumberline Usefulness}{41}{section*.21}
+\contentsline {subsubsection}{\nonumberline Clearness}{42}{section*.22}
+\contentsline {subsection}{\numberline {4.4.7}System Preference}{42}{subsection.4.4.7}
+\contentsline {subsubsection}{\nonumberline General Preference}{42}{section*.23}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{42}{section*.24}
+\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{42}{subsection.4.4.8}
+\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{43}{subsection.4.4.9}
+\contentsline {section}{\numberline {4.5}Discussion}{44}{section.4.5}
