@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ref:43}
 Android design principles, July 2014.
@@ -18,11 +18,28 @@ Robin Burke.
 \newblock {\em Encyclopedia of library and information systems}, 69(Supplement
   32):175--186, 2000.
 
+\bibitem{ref:24}
+Alexander Felfernig, Gerhard Friedrich, Dietmar Jannach, and Markus Zanker.
+\newblock Developing constraint-based recommenders.
+\newblock In {\em Recommender systems handbook}, pages 187--215. Springer,
+  2011.
+
+\bibitem{ref:25}
+Janet~L Kolodner.
+\newblock An introduction to case-based reasoning.
+\newblock {\em Artificial Intelligence Review}, 6(1):3--34, 1992.
+
 \bibitem{ref:22}
 Fabiana Lorenzi and Francesco Ricci.
 \newblock Case-based recommender systems: a unifying view.
 \newblock In {\em Intelligent Techniques for Web Personalization}, pages
   89--113. Springer, 2005.
+
+\bibitem{ref:44}
+David McSherry.
+\newblock Similarity and compromise.
+\newblock In {\em Case-Based Reasoning Research and Development}, pages
+  291--305. Springer, 2003.
 
 \bibitem{ref:26}
 Francesco Ricci, Bora Arslan, Nader Mirzadeh, and Adriano Venturini.

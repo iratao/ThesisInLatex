@@ -5,45 +5,45 @@ The style file: plain.bst
 Database file #1: literature.bib
 Warning--to sort, need author or key in ref:42
 Warning--to sort, need author or key in ref:43
-You've used 9 entries,
+You've used 12 entries,
             2118 wiz_defined-function locations,
-            543 strings with 5096 characters,
-and the built_in function-call counts, 2813 in all, are:
-= -- 271
-> -- 122
-< -- 2
-+ -- 49
-- -- 40
-* -- 181
-:= -- 439
-add.period$ -- 24
-call.type$ -- 9
-change.case$ -- 45
+            561 strings with 5466 characters,
+and the built_in function-call counts, 4045 in all, are:
+= -- 405
+> -- 159
+< -- 4
++ -- 65
+- -- 52
+* -- 255
+:= -- 623
+add.period$ -- 35
+call.type$ -- 12
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 113
-empty$ -- 247
-format.name$ -- 40
-if$ -- 611
+cite$ -- 14
+duplicate$ -- 172
+empty$ -- 353
+format.name$ -- 52
+if$ -- 891
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 8
-newline$ -- 43
-num.names$ -- 14
-pop$ -- 74
+int.to.str$ -- 12
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 20
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 38
+purify$ -- 50
 quote$ -- 0
-skip$ -- 85
+skip$ -- 127
 stack$ -- 0
-substring$ -- 154
-swap$ -- 25
-text.length$ -- 2
+substring$ -- 250
+swap$ -- 46
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 44
 warning$ -- 2
-while$ -- 24
-width$ -- 10
-write$ -- 88
+while$ -- 38
+width$ -- 14
+write$ -- 123
 (There were 2 warnings)

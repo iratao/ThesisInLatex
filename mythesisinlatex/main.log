@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  24 JUL 2014 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  24 JUL 2014 20:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1641,9 +1641,17 @@ ed rec-om-mender and constraint-
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 28.
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+[5] [6]
+
+LaTeX Warning: Citation `ref:27' on page 7 undefined on input line 66.
+
+[7]
+
+LaTeX Warning: Citation `ref:28' on page 8 undefined on input line 71.
+
+[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 239.
+put line 240.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1694,7 +1702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/pplx/m/n/10.95 (+20) Pref-er-
  []
 
-[38] <figures/predictionAccuracy.png, id=500, 362.3136pt x 218.2554pt>
+[38] <figures/predictionAccuracy.png, id=508, 362.3136pt x 218.2554pt>
 File: figures/predictionAccuracy.png Graphic file (type png)
 
 <use figures/predictionAccuracy.png>
@@ -1702,70 +1710,70 @@ Package pdftex.def Info: figures/predictionAccuracy.png used on input line 147.
 
 (pdftex.def)             Requested size: 239.94592pt x 144.54pt.
 
-<figures/critiquingCycles.png, id=502, 362.7954pt x 217.7736pt>
+<figures/critiquingCycles.png, id=510, 362.7954pt x 217.7736pt>
 File: figures/critiquingCycles.png Graphic file (type png)
 
 <use figures/critiquingCycles.png>
 Package pdftex.def Info: figures/critiquingCycles.png used on input line 162.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [39 <./figures/predictionAccuracy.png>]
-<figures/critiquingTime.png, id=510, 362.3136pt x 217.7736pt>
+<figures/critiquingTime.png, id=518, 362.3136pt x 217.7736pt>
 File: figures/critiquingTime.png Graphic file (type png)
 
 <use figures/critiquingTime.png>
 Package pdftex.def Info: figures/critiquingTime.png used on input line 174.
 (pdftex.def)             Requested size: 240.47665pt x 144.54pt.
  [40 <./figures/critiquingCycles.png> <./figures/critiquingTime.png>]
-<figures/easeOfUse.png, id=520, 724.6272pt x 217.7736pt>
+<figures/easeOfUse.png, id=528, 724.6272pt x 217.7736pt>
 File: figures/easeOfUse.png Graphic file (type png)
 
 <use figures/easeOfUse.png>
 Package pdftex.def Info: figures/easeOfUse.png used on input line 189.
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
  [41 <./figures/easeOfUse.png>]
-<figures/effectiveness.png, id=530, 724.6272pt x 218.2554pt>
+<figures/effectiveness.png, id=538, 724.6272pt x 218.2554pt>
 File: figures/effectiveness.png Graphic file (type png)
 
 <use figures/effectiveness.png>
 Package pdftex.def Info: figures/effectiveness.png used on input line 202.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
 
-<figures/contextBenefits.png, id=531, 724.6272pt x 218.2554pt>
+<figures/contextBenefits.png, id=539, 724.6272pt x 218.2554pt>
 File: figures/contextBenefits.png Graphic file (type png)
 
 <use figures/contextBenefits.png>
 Package pdftex.def Info: figures/contextBenefits.png used on input line 213.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
  [42 <./figures/effectiveness.png>]
-<figures/satisfaction.png, id=538, 725.109pt x 218.7372pt>
+<figures/satisfaction.png, id=546, 725.109pt x 218.7372pt>
 File: figures/satisfaction.png Graphic file (type png)
 
 <use figures/satisfaction.png>
 Package pdftex.def Info: figures/satisfaction.png used on input line 228.
 (pdftex.def)             Requested size: 407.27533pt x 122.85876pt.
  [43 <./figures/contextBenefits.png>]
-<figures/usefulness.png, id=546, 725.109pt x 218.2554pt>
+<figures/usefulness.png, id=554, 725.109pt x 218.2554pt>
 File: figures/usefulness.png Graphic file (type png)
 
 <use figures/usefulness.png>
 Package pdftex.def Info: figures/usefulness.png used on input line 239.
 (pdftex.def)             Requested size: 408.17154pt x 122.85876pt.
  [44 <./figures/satisfaction.png> <./figures/usefulness.png>] <figures/clearnes
-s.png, id=557, 724.1454pt x 218.2554pt>
+s.png, id=566, 724.1454pt x 218.2554pt>
 File: figures/clearness.png Graphic file (type png)
 
 <use figures/clearness.png>
 Package pdftex.def Info: figures/clearness.png used on input line 250.
 (pdftex.def)             Requested size: 407.62912pt x 122.85876pt.
 
-<figures/generalPreference.png, id=558, 362.7954pt x 217.7736pt>
+<figures/generalPreference.png, id=567, 362.7954pt x 217.7736pt>
 File: figures/generalPreference.png Graphic file (type png)
 
 <use figures/generalPreference.png>
 Package pdftex.def Info: figures/generalPreference.png used on input line 263.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [45 <./figures/clearness.png> <./figures/generalPreference.png>]
-<figures/systemSatisfaction.png, id=569, 724.6272pt x 217.7736pt>
+<figures/systemSatisfaction.png, id=577, 724.6272pt x 217.7736pt>
 File: figures/systemSatisfaction.png Graphic file (type png)
 
 <use figures/systemSatisfaction.png>
@@ -1837,15 +1845,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 84EFFCD4E8675B4A90472CCD6215E6AB;2963.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35390 strings out of 493117
- 766705 string characters out of 6135433
- 1021503 words of memory out of 5000000
- 37722 multiletter control sequences out of 15000+600000
- 60403 words of font info for 267 fonts, out of 8000000 for 9000
+ 35418 strings out of 493117
+ 766949 string characters out of 6135433
+ 1021590 words of memory out of 5000000
+ 37727 multiletter control sequences out of 15000+600000
+ 61433 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,83p,1810b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1858,10 +1869,10 @@ exmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2014/texmf-dis
 t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (62 pages, 817973 bytes).
+Output written on main.pdf (62 pages, 820132 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 599 compressed objects within 6 object streams
- 162 named destinations out of 1000 (max. 500000)
+ 718 PDF objects out of 1000 (max. 8388607)
+ 608 compressed objects within 7 object streams
+ 165 named destinations out of 1000 (max. 500000)
  39854 words of extra memory for PDF output out of 42996 (max. 10000000)
 
