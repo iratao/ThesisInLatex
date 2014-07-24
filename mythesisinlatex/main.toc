@@ -21,7 +21,7 @@
 \contentsline {subsubsection}{\nonumberline Incorporating Context into Recommender Systems}{16}{section*.10}
 \contentsline {subsection}{\numberline {2.1.5}Mobile Recommender System}{16}{subsection.2.1.5}
 \contentsline {subsection}{\numberline {2.1.6}Baseline System}{17}{subsection.2.1.6}
-\contentsline {subsection}{\numberline {2.1.7}Methodology for Developing CARS}{19}{subsection.2.1.7}
+\contentsline {subsection}{\numberline {2.1.7}Methodology for Developing CARS}{20}{subsection.2.1.7}
 \contentsline {chapter}{\numberline {3}Build the System}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Acquiring Context Relevance}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Analysis of Context Relevance}{22}{subsection.3.1.1}
@@ -48,19 +48,19 @@
 \contentsline {subsection}{\numberline {4.4.2}Overview}{38}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Prediction Accuracy}{39}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Decision Efficiency}{39}{subsection.4.4.4}
-\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{39}{section*.16}
-\contentsline {subsubsection}{\nonumberline Critiquing Time}{39}{section*.17}
-\contentsline {subsubsection}{\nonumberline Ease of Use}{40}{section*.18}
-\contentsline {subsubsection}{\nonumberline Effectiveness}{40}{section*.19}
-\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{41}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{41}{subsection.4.4.6}
-\contentsline {subsubsection}{\nonumberline Satisfaction}{41}{section*.20}
-\contentsline {subsubsection}{\nonumberline Usefulness}{41}{section*.21}
-\contentsline {subsubsection}{\nonumberline Clearness}{42}{section*.22}
-\contentsline {subsection}{\numberline {4.4.7}System Preference}{42}{subsection.4.4.7}
-\contentsline {subsubsection}{\nonumberline General Preference}{42}{section*.23}
-\contentsline {subsubsection}{\nonumberline Satisfaction}{42}{section*.24}
-\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{42}{subsection.4.4.8}
-\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{43}{subsection.4.4.9}
-\contentsline {section}{\numberline {4.5}Discussion}{44}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{47}{chapter.5}
+\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{39}{section*.17}
+\contentsline {subsubsection}{\nonumberline Critiquing Time}{40}{section*.19}
+\contentsline {subsubsection}{\nonumberline Ease of Use}{41}{section*.21}
+\contentsline {subsubsection}{\nonumberline Effectiveness}{41}{section*.23}
+\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{42}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{43}{subsection.4.4.6}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{43}{section*.26}
+\contentsline {subsubsection}{\nonumberline Usefulness}{44}{section*.28}
+\contentsline {subsubsection}{\nonumberline Clearness}{44}{section*.30}
+\contentsline {subsection}{\numberline {4.4.7}System Preference}{45}{subsection.4.4.7}
+\contentsline {subsubsection}{\nonumberline General Preference}{45}{section*.32}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{46}{section*.34}
+\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{46}{subsection.4.4.8}
+\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{47}{subsection.4.4.9}
+\contentsline {section}{\numberline {4.5}Discussion}{48}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{50}{chapter.5}

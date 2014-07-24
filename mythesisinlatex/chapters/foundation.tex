@@ -1,23 +1,29 @@
 \chapter{Foundations}\label{chapter:foundation}
 
+Based on the motivations and goals discussed in the previous chapter, this chapter will start with a detail discussion of the recommender system researches that informed the design, implementation and evaluation of the developed system.
+
 \section{Recommender System} \label{sec:rs}
 
-With the development of information technology, people can now have access to various kinds of product and services all over the world using internet without any difficulty instead of limited choices in the local shops in the old times. At the same time, people are overwhelmed by the number of options to consider. Thus Recommender Systems (RSs) as a decision support tool has become an important topic in the research study.
+With the development of information technology, people can now have access to various kinds of product and services all over the world using internet without any difficulty compared to limited choices in the local shops in the old days. At the same time, people are overwhelmed by the number of options to consider. Thus Recommender Systems (RSs) as a decision support tool has become an important topic in the research study.
 
-Recommender Systems (RSs) are software tools and techniques providing suggestions for items to be of use to a user [21]. RSs try to provide personalized recommendations based on user preferences and constraints which can be either explicitly expressed as, e.g., ratings of products. or implicitly inferred from, e.g., user actions or context around. For instance, user?s navigation to a particular product page can be interpreted as user?s interest in that product.  With the introduction of the concept of context-aware RS, context such as location, weather, company can also be used for recommendation prediction. 
+Recommender Systems are software tools and techniques providing suggestions for items to be of use to a user \cite{ref:21}. RSs try to provide personalized recommendations based on user preferences and constraints which can be either explicitly expressed as, e.g., ratings of products, or implicitly inferred from, e.g., user actions or context around. For instance, user$^\prime$s navigation to a particular product page can be interpreted as user$^\prime$s interest in that product.  With the introduction of the concept of context-aware recommender system, context such as location, weather, company can also be used for recommendation prediction. 
 
 Different recommendation techniques are used for recommendation and they are usually categorized into three categories \cite{ref:22, ref:21}:
 \begin {itemize}
-	\item{Collaborative Filtering: RSs using collaborative filtering approach recommend to the active user items that are liked by other users with similar tastes in the past.}
-	\item{Content-based: RSs using content-based approach recommend items that are similar to the ones the current user liked before.}
-	\item{Knowledge-based: RSs using knowledge-based approach exploit knowledge about the customers and the application domain to reason about the items that might be of interest to the user.}
+	\item{\textbf{Collaborative Filtering}:} 
+	RSs using collaborative filtering approach recommend to the active user items that are liked by other users with similar tastes in the past.
+	\item{\textbf{Content-based}:} 
+	RSs using content-based approach recommend items that are similar to the ones the current user liked before.
+	\item{\textbf{Knowledge-based}:} 
+	RSs using knowledge-based approach exploit knowledge about the customers and the application domain to reason about the items that might be of interest to the user.
 \end{itemize}
 
-In collaborative RSs, recommendation depends on the information of current user and a large amount user/system interaction data is needed in order to find similar users and thus relevant items to recommend. In content-based RSs, only the current user information is exploited for recommendation and since content-based RSs are usually implemented as classifier systems based on machine learning research, a large enough number of user ratings is needed to train the prediction model. Both techniques are faced with a cold-start problem: not until enough examples (product ratings or pattern of user preferences) are known, the recommendations can not be useful for the user [22,23]. 
+In collaborative RSs, recommendation depends on the information of current user and a large amount user/system interaction data is needed to find similar users and thus relevant items to recommend. In content-based RSs, only the current user information is exploited for recommendation and since content-based RSs are usually implemented as classifier systems based on machine learning research, a large enough number of user ratings is needed to train the prediction model. Both techniques are faced with a cold-start problem: not until enough examples (product ratings or pattern of user preferences) are known, the recommendations can not be useful for the user \cite{ref:22, 
+ref:23}. 
 
-This problem is even worse for clothing recommender systems. If we look into Amazon website, we can find that there are far fewer ratings for clothes than for other product like cameras or mobile phones. It is because clothing products are featured with fast updating and diverse styles, it is unrealistic to have enough ratings for all the clothing for recommendations in a short period of time. As for the application in this paper, we are trying to build a clothing recommendation system for offline shopping scenario. Different from online shopping, offline shopping is limited with location and space, which will drastically cut down the number of examples. On the other hand, user?s clothing shopping preferences change a lot with the context information like weather, temperature, mood or budget and it is difficult for content-based and collaborative RSs to adapt quickly to those changes. All these considerations motivated us to come to the third approach, knowledge-based approach. Knowledge-based RSs help to solve all these challenges by exploiting existing knowledge about the specific product domain and explicit user requirements. There is no cold-start problem because all requirements are directly elicited within a recommendation session.
+This problem is even worse for clothing recommender systems. If we look into Amazon website, we can find that there are far fewer ratings for clothes than for other products like cameras or mobile phones. It is because clothing product is featured with fast updating and diverse styles. It is unrealistic to have enough ratings for all the clothing for recommendations in a short period of time. As for the application in this thesis, where a clothing recommendation system for offline shopping scenario was built. Different from online shopping, offline shopping is limited with location and space, which will drastically cut down the number of examples. On the other hand, user$^\prime$s clothing shopping preferences change a lot with the current contextual conditions like weather, temperature, mood or budget and it is difficult for content-based and collaborative RSs to adapt quickly to those changes. All these considerations motivated the adoption of the third approach, knowledge-based approach. Knowledge-based RSs help to solve all these challenges by exploiting existing knowledge about the specific product domain and explicit user requirements. There is no cold-start problem because all requirements are directly elicited within a recommendation session.
 
-There are two types of knowledge-based RSs: case-based recommender and constraint-based recommender [24]. Case-based recommenders determine recommendations based on past similar cases or in other words, successful solutions, while constraint-based recommenders determine recommendations by exploiting predefined knowledge bases that contain explicit rules about relationship between customer requirements and item features.
+There are two types of knowledge-based RSs: case-based recommender and constraint-based recommender \cite{ref:24}. Case-based recommenders determine recommendations based on past similar cases or in other words, successful solutions, while constraint-based recommenders determine recommendations by exploiting predefined knowledge bases that contain explicit rules about relationship between customer requirements and item features.
 
 \subsection{Case-Based Recommender System} \label{sec:rs_cbrs}
 
@@ -229,13 +235,39 @@ Adaptive Selection (AS) is a conversation-based recommendation algorithm that us
 
 AS detects whether the new recommendations are satisfying or not through, what  McGinty and Smyth call, carrying the preference. In each cycle, the last critiqued item will be included in the new recommendations. It is argued that if the user keeps critiquing on the carried item, it is indicated that the new recommendations are not satisfying and the system should refocus and show more diverse set of items in the next cycle. Otherwise, the system should refine and show more similar items.
 
-\textbf{TODO}
+\begin{algorithm}
+\caption{The bounded greedy selection of the Adaptive Selection algorithm by McGinty and Smyth.}\label{list:bgs}
+\begin{algorithmic}[1]
+\Function{BoundedGreedySelection}{$q, CB, K, B$}
+	\State $CB\prime \gets  bk items in CB that are most similar to q$
+	\State $R \gets \{\}$
+	\For{$j=1$ to $k$}
+		Sort $CB\prime$ by $Quality(q,i,R)$ for each case $i \in CB\prime$
+		\State $R \gets R + First(CB\prime)$
+		\State $CB\prime \gets CB\prime - First(CB\prime)$
+	\EndFor
+\EndFunction
+\State $\alpha = 0.5$
+\State $Quality(q,i,R) = \alpha Sim(q,I) + (1-\alpha)RelDiv(i,R)$
+\State $RelDiv(i,R) = \sum_{j=1...m}(1-Sim(1,r_j))/m$ if $R!={}; = 1$ otherwise
+\end{algorithmic}
+\end{algorithm}
+
+The refocus function is relied on a quality measure which uses the bounded greedy selection algorithm (Figure 2.2) that ranks items according to their similarity to the query and their dissimilarity to already selected items. A further refinement is done on the quality measure by introducing a weighting factor . This factor allows to bias the quality metric in favor of either similarity to the target query or diversity among selected cases as can be seen in Equation xx.xx.
+\begin{equation} \label{eq:quality}
+\begin{split}
+	Quality(t,c,R) =  \alpha * Similarity(t,c) + (1 - \alpha) * RelDiversity(c,R)
+\end{split}
+\end{equation}
+
+Paper [30] adopts the algorithm AS and modifies it for ease of use reasons by using a two-step critiquing process as the feedback method. Instead of determining whether to refocus or refine the recommendations based on whether or not the last critiqued item is critiqued again, in the new algorithm, users are asked to determine and tell the system whether she/he likes or dislikes an item before specifying what exactly those critiqued features are. For a detail explanation of the system please refer to paper [30].
+
 
 \subsection{Methodology for Developing CARS} \label{sec:rs_methodology}
 
 There are four main issues that influence the successful design of CARSs [5]. The first issue is to find out the contextual information worth considering while generating recommendations. As was discussed in section xx.xx, not all contextual information is relevant or useful for recommendation purpose. After the context factors are selected, they can be integrated into the recommendation process either through context-driven querying and search or through contextual preference elicitation and estimation approach as was discussed in section xx.xx. Four both approaches, user?s in-context preferences knowledge need to be collected for either building knowledge bases or training predictive model. However this is a time and resource consuming process. Thus the second issue is to find an effective way for the collection of training data. After the recommendation approach is built, a complete recommendation system can be generated. Thus the third problem is to develop an efficient recommendation system using the given recommendation approach. The fourth problem is the interface design and visualization problem, including useful item description and explanations for the recommendation.
 
-Paper [5] developed a methodology for solving these four issues and to support the development cycle for CARS. This methodology comprises four steps: determining which contexts are interesting to study; acquiring user ratings in specific contexts of interest; predicting ratings given a specific context; context-aware recommendation visualisation and updating. In this thesis, we are going to adapt and apply this methodology to our system development. We are going to explain how each of these steps are implemented in this thesis.
+Paper [5] developed a methodology for solving these four issues and to support the development cycle for CARS. This methodology comprises four steps: determining which contexts are interesting to study; acquiring user ratings in specific contexts of interest; predicting ratings given a specific context; context-aware recommendation visualization and updating. In this thesis, we are going to adapt and apply this methodology to our system development. We are going to explain how each of these steps are implemented in this thesis.
 
 
 

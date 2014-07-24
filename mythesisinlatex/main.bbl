@@ -1,10 +1,22 @@
 \begin{thebibliography}{1}
 
-\bibitem{latex}
-Leslie Lamport.
-\newblock {\em LaTeX : A Documentation Preparation System User's Guide and
-  Reference Manual}.
-\newblock Addison-Wesley Professional, 1994.
+\bibitem{ref:43}
+Android design principles, July 2014.
+
+\bibitem{ref:42}
+Android, the world's most popular mobile platform, July 2014.
+
+\bibitem{ref:5}
+Linas Baltrunas, Bernd Ludwig, Stefan Peer, and Francesco Ricci.
+\newblock Context relevance assessment and exploitation in mobile recommender
+  systems.
+\newblock {\em Personal and Ubiquitous Computing}, 16(5):507--526, 2012.
+
+\bibitem{ref:23}
+Robin Burke.
+\newblock Knowledge-based recommender systems.
+\newblock {\em Encyclopedia of library and information systems}, 69(Supplement
+  32):175--186, 2000.
 
 \bibitem{ref:22}
 Fabiana Lorenzi and Francesco Ricci.
@@ -12,9 +24,26 @@ Fabiana Lorenzi and Francesco Ricci.
 \newblock In {\em Intelligent Techniques for Web Personalization}, pages
   89--113. Springer, 2005.
 
+\bibitem{ref:26}
+Francesco Ricci, Bora Arslan, Nader Mirzadeh, and Adriano Venturini.
+\newblock Itr: a case-based travel advisory system.
+\newblock In {\em Advances in Case-Based Reasoning}, pages 613--627. Springer,
+  2002.
+
 \bibitem{ref:21}
 Francesco Ricci, Lior Rokach, and Bracha Shapira.
 \newblock {\em Introduction to recommender systems handbook}.
 \newblock Springer, 2011.
+
+\bibitem{ref:12}
+Norma~Saiph Savage, Maciej Baranski, Norma~Elva Chavez, and Tobias
+  H{\"o}llerer.
+\newblock {\em I'm feeling loco: A location based context aware recommendation
+  system}.
+\newblock Springer, 2012.
+
+\bibitem{ref:39}
+S~Shen and B~Blau.
+\newblock Market trends: Mobile app stores, worldwide, 2012, 2012.
 
 \end{thebibliography}
