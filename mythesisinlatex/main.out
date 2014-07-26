@@ -17,7 +17,7 @@
 \BOOKMARK [1][-]{section.3.1}{Acquiring Context Relevance}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.1.1}{Analysis of Context Relevance}{section.3.1}% 18
 \BOOKMARK [1][-]{section.3.2}{The Proposed Approach}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.3}{Towards Case-Based Recommender Systems}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Towards Case-Based Recommender System}{chapter.3}% 20
 \BOOKMARK [1][-]{section.3.4}{Case Model}{chapter.3}% 21
 \BOOKMARK [1][-]{section.3.5}{Similarity Assessment}{chapter.3}% 22
 \BOOKMARK [1][-]{section.3.6}{Explanation Generation}{chapter.3}% 23
@@ -42,3 +42,4 @@
 \BOOKMARK [2][-]{subsection.4.4.9}{Correlation Analysis}{section.4.4}% 42
 \BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 43
 \BOOKMARK [0][-]{chapter.5}{Conclusions and Future Work}{}% 44
+\BOOKMARK [0][-]{appendix.A}{User Preferences for Categories of Clothest}{}% 45

@@ -97,6 +97,11 @@ B{\'e}atrice Lamche, Uwe Trottmann, and Wolfgang W{\"o}rndl.
 \newblock In {\em Proceedings of the 4th Workshop on Context-Awareness in
   Retrieval and Recommendation}, pages 10--17. ACM, 2014.
 
+\bibitem{ref:45}
+Chris~J Lloyd.
+\newblock {\em Statistical analysis of categorical data}.
+\newblock Wiley New York, 1999.
+
 \bibitem{ref:22}
 Fabiana Lorenzi and Francesco Ricci.
 \newblock Case-based recommender systems: a unifying view.
@@ -196,5 +201,10 @@ Wikipedia.
 \bibitem{ref:41}
 Wikipedia.
 \newblock Indoor positioning system, July 2014.
+
+\bibitem{ref:34}
+D.~Randall Wilson and Tony~R. Martinez.
+\newblock Improved heterogeneous distance functions.
+\newblock {\em arXiv preprint cs/9701101}, 1997.
 
 \end{thebibliography}

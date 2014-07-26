@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  26 JUL 2014 05:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  26 JUL 2014 20:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1364,7 +1364,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package tocbasic Info: setting babel extension for `loa' on input line 95.
 \@float@every@algorithm=\toks45
 \c@algorithm=\count167
-))
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
@@ -1384,7 +1384,27 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip58
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./settings/settings.tex) (./settings/commands.tex)
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count175
+\LTcapwidth=\dimen206
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count176
+\LT@rows=\count177
+\c@LT@tables=\count178
+\c@LT@chunks=\count179
+\LT@p@ftn=\toks46
+)
+Class scrbook Info: longtable captions redefined on input line 5.
+
+(./settings/settings.tex) (./settings/commands.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/ix-name.def
 File: ix-name.def 2011/05/27 v1.10 Name list (inputenx)
 )
@@ -1444,17 +1464,17 @@ Package nag Info: Command \RaggedRight not defined, skipping amendment on input
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count175
-\scratchdimen=\dimen206
-\scratchbox=\box45
-\nofMPsegments=\count176
-\nofMParguments=\count177
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count178
-\MPscratchDim=\dimen207
-\MPnumerator=\count179
-\makeMPintoPDFobject=\count180
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count180
+\scratchdimen=\dimen207
+\scratchbox=\box49
+\nofMPsegments=\count181
+\nofMParguments=\count182
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count183
+\MPscratchDim=\dimen208
+\MPnumerator=\count184
+\makeMPintoPDFobject=\count185
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1470,7 +1490,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count181
+\c@lstlisting=\count186
 Package scrhack Info: undefining \float@addtolists on input line 15.
 
 ABD: EveryShipout initializing macros
@@ -1493,8 +1513,13 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box46
+\AtBeginShipoutBox=\box50
 Package hyperref Info: Link coloring OFF on input line 15.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1503,7 +1528,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count182
+\c@section@level=\count187
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
@@ -1518,7 +1543,7 @@ line 15.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 15.
  (./pages/cover.tex
-<logos/tum.pdf, id=183, 53.9634pt x 28.42714pt>
+<logos/tum.pdf, id=187, 53.9634pt x 28.42714pt>
 File: logos/tum.pdf Graphic file (type pdf)
  <use logos/tum.pdf>
 Package pdftex.def Info: logos/tum.pdf used on input line 13.
@@ -1526,7 +1551,7 @@ Package pdftex.def Info: logos/tum.pdf used on input line 13.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 25.
 
-<logos/faculty.pdf, id=184, 33.96803pt x 37.09984pt>
+<logos/faculty.pdf, id=188, 33.96803pt x 37.09984pt>
 File: logos/faculty.pdf Graphic file (type pdf)
  <use logos/faculty.pdf>
 Package pdftex.def Info: logos/faculty.pdf used on input line 31.
@@ -1663,8 +1688,17 @@ Overfull \hbox (20.40417pt too wide) in paragraph at lines 19--44
  [][] 
  []
 
-[22] [23] [24] [25] [26] [27] [28] [29] [30]) (./chapters/evaluation.tex
-[31]
+[22] <figures/webtool.png, id=516, 626.34pt x 343.2825pt>
+File: figures/webtool.png Graphic file (type png)
+
+<use figures/webtool.png>
+Package pdftex.def Info: figures/webtool.png used on input line 51.
+(pdftex.def)             Requested size: 369.20288pt x 202.35622pt.
+ [23 <./figures/webtool.png>] [24] [25]
+
+LaTeX Warning: Citation `sec:rs_alrs' on page 26 undefined on input line 103.
+
+[26] [27] [28] [29] [30]) (./chapters/evaluation.tex [31]
 Chapter 4.
 [32
 
@@ -1704,7 +1738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/pplx/m/n/10.95 (+20) Pref-er-
  []
 
-[39] <figures/predictionAccuracy.png, id=590, 362.3136pt x 218.2554pt>
+[39] <figures/predictionAccuracy.png, id=626, 362.3136pt x 218.2554pt>
 File: figures/predictionAccuracy.png Graphic file (type png)
 
 <use figures/predictionAccuracy.png>
@@ -1712,70 +1746,70 @@ Package pdftex.def Info: figures/predictionAccuracy.png used on input line 147.
 
 (pdftex.def)             Requested size: 239.94592pt x 144.54pt.
 
-<figures/critiquingCycles.png, id=592, 362.7954pt x 217.7736pt>
+<figures/critiquingCycles.png, id=627, 362.7954pt x 217.7736pt>
 File: figures/critiquingCycles.png Graphic file (type png)
 
 <use figures/critiquingCycles.png>
 Package pdftex.def Info: figures/critiquingCycles.png used on input line 162.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [40 <./figures/predictionAccuracy.png>]
-<figures/critiquingTime.png, id=600, 362.3136pt x 217.7736pt>
+<figures/critiquingTime.png, id=635, 362.3136pt x 217.7736pt>
 File: figures/critiquingTime.png Graphic file (type png)
 
 <use figures/critiquingTime.png>
 Package pdftex.def Info: figures/critiquingTime.png used on input line 174.
 (pdftex.def)             Requested size: 240.47665pt x 144.54pt.
  [41 <./figures/critiquingCycles.png> <./figures/critiquingTime.png>]
-<figures/easeOfUse.png, id=611, 724.6272pt x 217.7736pt>
+<figures/easeOfUse.png, id=646, 724.6272pt x 217.7736pt>
 File: figures/easeOfUse.png Graphic file (type png)
 
 <use figures/easeOfUse.png>
 Package pdftex.def Info: figures/easeOfUse.png used on input line 189.
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
  [42 <./figures/easeOfUse.png>]
-<figures/effectiveness.png, id=620, 724.6272pt x 218.2554pt>
+<figures/effectiveness.png, id=655, 724.6272pt x 218.2554pt>
 File: figures/effectiveness.png Graphic file (type png)
 
 <use figures/effectiveness.png>
 Package pdftex.def Info: figures/effectiveness.png used on input line 202.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
 
-<figures/contextBenefits.png, id=621, 724.6272pt x 218.2554pt>
+<figures/contextBenefits.png, id=656, 724.6272pt x 218.2554pt>
 File: figures/contextBenefits.png Graphic file (type png)
 
 <use figures/contextBenefits.png>
 Package pdftex.def Info: figures/contextBenefits.png used on input line 213.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
  [43 <./figures/effectiveness.png>]
-<figures/satisfaction.png, id=628, 725.109pt x 218.7372pt>
+<figures/satisfaction.png, id=663, 725.109pt x 218.7372pt>
 File: figures/satisfaction.png Graphic file (type png)
 
 <use figures/satisfaction.png>
 Package pdftex.def Info: figures/satisfaction.png used on input line 228.
 (pdftex.def)             Requested size: 407.27533pt x 122.85876pt.
  [44 <./figures/contextBenefits.png>]
-<figures/usefulness.png, id=636, 725.109pt x 218.2554pt>
+<figures/usefulness.png, id=671, 725.109pt x 218.2554pt>
 File: figures/usefulness.png Graphic file (type png)
 
 <use figures/usefulness.png>
 Package pdftex.def Info: figures/usefulness.png used on input line 239.
 (pdftex.def)             Requested size: 408.17154pt x 122.85876pt.
  [45 <./figures/satisfaction.png> <./figures/usefulness.png>] <figures/clearnes
-s.png, id=647, 724.1454pt x 218.2554pt>
+s.png, id=682, 724.1454pt x 218.2554pt>
 File: figures/clearness.png Graphic file (type png)
 
 <use figures/clearness.png>
 Package pdftex.def Info: figures/clearness.png used on input line 250.
 (pdftex.def)             Requested size: 407.62912pt x 122.85876pt.
 
-<figures/generalPreference.png, id=648, 362.7954pt x 217.7736pt>
+<figures/generalPreference.png, id=683, 362.7954pt x 217.7736pt>
 File: figures/generalPreference.png Graphic file (type png)
 
 <use figures/generalPreference.png>
 Package pdftex.def Info: figures/generalPreference.png used on input line 263.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [46 <./figures/clearness.png> <./figures/generalPreference.png>]
-<figures/systemSatisfaction.png, id=658, 724.6272pt x 217.7736pt>
+<figures/systemSatisfaction.png, id=693, 724.6272pt x 217.7736pt>
 File: figures/systemSatisfaction.png Graphic file (type png)
 
 <use figures/systemSatisfaction.png>
@@ -1812,50 +1846,714 @@ Chapter 5.
 [51
 
 
-]) [52]
-Package tocbasic Info: character protrusion at lof deactivated on input line 41
+]) (./appendix/upcc.tex [52]
+Appendix A.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 17.
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 19--19
+[]|\T1/pplx/m/n/9 (-20) 0.85| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 19--19
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 20--20
+[]|\T1/pplx/m/n/9 (-20) 0.84| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 20--21
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 21--21
+[]|\T1/pplx/m/n/9 (-20) 0.84| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 21--22
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 22--22
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 22--22
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 22--23
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 23--23
+[]|\T1/pplx/m/n/9 (-20) 0.93| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 23--23
+[]|\T1/pplx/m/n/9 (-20) 0.83| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 23--24
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 24--24
+[]|\T1/pplx/m/n/9 (-20) 0.91| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 24--24
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 24--25
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 25--25
+[]|\T1/pplx/m/n/9 (-20) 0.78| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 25--25
+[]|\T1/pplx/m/n/9 (-20) 0.91| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 25--25
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 25--26
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (-20) 0.78| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 26--27
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 27--27
+[]|\T1/pplx/m/n/9 (-20) 0.76| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 27--27
+[]|\T1/pplx/m/n/9 (-20) 0.78| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 27--27
+[]|\T1/pplx/m/n/9 (-20) 0.79| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 27--28
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 28--28
+[]|\T1/pplx/m/n/9 (-20) 0.76| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 28--28
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 28--28
+[]|\T1/pplx/m/n/9 (-20) 0.76| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 28--28
+[]|\T1/pplx/m/n/9 (-20) 0.78| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 28--29
+[]|\T1/pplx/m/n/9 (-20) 0.79| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 29--29
+[]|\T1/pplx/m/n/9 (-20) 0.76| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 29--29
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 29--29
+[]|\T1/pplx/m/n/9 (-20) 0.75| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 29--30
+[]|\T1/pplx/m/n/9 (-20) 0.73| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 30--30
+[]|\T1/pplx/m/n/9 (-20) 0.71| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 30--30
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 30--30
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 30--30
+[]|\T1/pplx/m/n/9 (-20) 0.69| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 30--31
+[]|\T1/pplx/m/n/9 (-20) 0.73| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 34--34
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 34--35
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 35--35
+[]|\T1/pplx/m/n/9 (-20) 0.91| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 36--36
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 36--36
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 36--37
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 37--37
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 37--37
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 37--38
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 38--38
+[]|\T1/pplx/m/n/9 (-20) 0.84| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 38--38
+[]|\T1/pplx/m/n/9 (-20) 0.86| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 38--38
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 38--38
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 38--39
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 39--39
+[]|\T1/pplx/m/n/9 (-20) 0.83| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 39--39
+[]|\T1/pplx/m/n/9 (-20) 0.85| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 39--39
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 39--40
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 40
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 40--40
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 40--40
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 40--40
+[]|\T1/pplx/m/n/9 (-20) 0.85| 
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 40--40
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 40--41
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 41--41
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 41--41
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 41--41
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 42--42
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 42--42
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 42--43
+[]|\T1/pplx/m/n/9 (-20) 0.79| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 43--43
+[]|\T1/pplx/m/n/9 (-20) 0.76| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 43--44
+[]|\T1/pplx/m/n/9 (-20) 0.77| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 44--44
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 44--44
+[]|\T1/pplx/m/n/9 (-20) 0.75| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 44--44
+[]|\T1/pplx/m/n/9 (-20) 0.75| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 44--45
+[]|\T1/pplx/m/n/9 (-20) 0.77| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 45--45
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 45--45
+[]|\T1/pplx/m/n/9 (-20) 0.68| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 45--45
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 45--46
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 50--50
+[]|\T1/pplx/m/n/9 (-20) 0.91| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 50--51
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 51--51
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 52--52
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 52--52
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 52--53
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 53--53
+[]|\T1/pplx/m/n/9 (-20) 0.86| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 53--53
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 53--53
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 53--54
+[]|\T1/pplx/m/n/9 (-20) 0.84| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 54--54
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 54--54
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 54--54
+[]|\T1/pplx/m/n/9 (-20) 0.83| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 54--54
+[]|\T1/pplx/m/n/9 (-20) 0.86| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 54--55
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 55--55
+[]|\T1/pplx/m/n/9 (-20) 0.88| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 55--55
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 55--55
+[]|\T1/pplx/m/n/9 (-20) 0.84| 
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 55--55
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 56--56
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 56--56
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 57--57
+[]|\T1/pplx/m/n/9 (-20) 0.86| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 57--57
+[]|\T1/pplx/m/n/9 (-20) 0.81| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 57--57
+[]|\T1/pplx/m/n/9 (-20) 0.79| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 58--58
+[]|\T1/pplx/m/n/9 (-20) 0.85| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 58--58
+[]|\T1/pplx/m/n/9 (-20) 0.77| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 58--58
+[]|\T1/pplx/m/n/9 (-20) 0.77| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 58--59
+[]|\T1/pplx/m/n/9 (-20) 0.79| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 59--59
+[]|\T1/pplx/m/n/9 (-20) 0.77| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 59--59
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 59--59
+[]|\T1/pplx/m/n/9 (-20) 0.73| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 59--60
+[]|\T1/pplx/m/n/9 (-20) 0.76| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--60
+[]|\T1/pplx/m/n/9 (-20) 0.74| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 60--60
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--60
+[]|\T1/pplx/m/n/9 (-20) 0.72| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--60
+[]|\T1/pplx/m/n/9 (-20) 0.68| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--61
+[]|\T1/pplx/m/n/9 (-20) 0.75| 
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 65--65
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 67--67
+[]|\T1/pplx/m/n/9 (+20) intent of pur-
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 70--70
+[]|\T1/pplx/m/n/9 (-20) 0.92| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 71--71
+[]|\T1/pplx/m/n/9 (-20) 0.89| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 72--72
+[]|\T1/pplx/m/n/9 (-20) 0.84| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 73--73
+[]|\T1/pplx/m/n/9 (-20) 0.83| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 73--74
+[]|\T1/pplx/m/n/9 (-20) 0.87| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 74--74
+[]|\T1/pplx/m/n/9 (-20) 0.82| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 74--75
+[]|\T1/pplx/m/n/9 (-20) 0.85| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 75--75
+[]|\T1/pplx/m/n/9 (-20) 0.72| 
+ []
+
+
+Overfull \hbox (1.20865pt too wide) in paragraph at lines 75--76
+[]|\T1/pplx/m/n/9 (-20) 0.85| 
+ []
+
+[53
+
+
+]) [54]
+Package tocbasic Info: character protrusion at lof deactivated on input line 43
 .
  (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [53
+ [55
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 42
+Package tocbasic Info: character protrusion at lot deactivated on input line 44
 .
  (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- (./main.bbl [54
+ (./main.bbl [56
 
 
-] [55
+] [57
 
 
-] [56])
+] [58])
 No complaints by nag.
-[57]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+[59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 84EFFCD4E8675B4A90472CCD6215E6AB;2963.
+(rerunfilecheck)             Checksum: 99AB14E431FA2B94526B50FE280C9DBF;3042.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35527 strings out of 493117
- 768258 string characters out of 6135433
- 1022321 words of memory out of 5000000
- 37782 multiletter control sequences out of 15000+600000
- 73061 words of font info for 318 fonts, out of 8000000 for 9000
+ 35702 strings out of 493117
+ 770705 string characters out of 6135433
+ 1054329 words of memory out of 5000000
+ 37915 multiletter control sequences out of 15000+600000
+ 80028 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,83p,1810b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1868,10 +2566,10 @@ exmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2014/texmf-dis
 t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (65 pages, 832232 bytes).
+Output written on main.pdf (67 pages, 976992 bytes).
 PDF statistics:
- 815 PDF objects out of 1000 (max. 8388607)
- 701 compressed objects within 8 object streams
- 193 named destinations out of 1000 (max. 500000)
- 45486 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 864 PDF objects out of 1000 (max. 8388607)
+ 746 compressed objects within 8 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 52155 words of extra memory for PDF output out of 61914 (max. 10000000)
 

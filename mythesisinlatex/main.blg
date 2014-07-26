@@ -4,50 +4,51 @@ The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: literature.bib
 Warning--entry type for "ref:4" isn't style-file defined
---line 76 of file literature.bib
+--line 82 of file literature.bib
 Warning--entry type for "ref:16" isn't style-file defined
---line 176 of file literature.bib
+--line 182 of file literature.bib
+Warning--I didn't find a database entry for "sec:rs_alrs"
 Warning--to sort, need author or key in ref:42
 Warning--to sort, need author or key in ref:43
-You've used 35 entries,
+You've used 37 entries,
             2118 wiz_defined-function locations,
-            676 strings with 8739 characters,
-and the built_in function-call counts, 12536 in all, are:
-= -- 1280
-> -- 505
+            686 strings with 8940 characters,
+and the built_in function-call counts, 12991 in all, are:
+= -- 1322
+> -- 525
 < -- 14
-+ -- 205
-- -- 166
-* -- 792
-:= -- 1944
-add.period$ -- 110
-call.type$ -- 35
-change.case$ -- 185
++ -- 213
+- -- 172
+* -- 812
+:= -- 2027
+add.period$ -- 116
+call.type$ -- 37
+change.case$ -- 193
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 528
-empty$ -- 1058
-format.name$ -- 166
-if$ -- 2757
+cite$ -- 39
+duplicate$ -- 550
+empty$ -- 1097
+format.name$ -- 172
+if$ -- 2851
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 30
-newline$ -- 170
-num.names$ -- 66
-pop$ -- 250
+int.to.str$ -- 37
+missing$ -- 33
+newline$ -- 180
+num.names$ -- 70
+pop$ -- 263
 preamble$ -- 1
-purify$ -- 151
+purify$ -- 158
 quote$ -- 0
-skip$ -- 397
+skip$ -- 411
 stack$ -- 0
-substring$ -- 807
-swap$ -- 157
+substring$ -- 817
+swap$ -- 159
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 136
+type$ -- 142
 warning$ -- 2
-while$ -- 128
-width$ -- 37
-write$ -- 373
-(There were 4 warnings)
+while$ -- 132
+width$ -- 39
+write$ -- 393
+(There were 5 warnings)
