@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  26 JUL 2014 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  26 JUL 2014 23:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1384,7 +1384,7 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip58
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-)) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip59
 \LTright=\skip60
@@ -1402,8 +1402,13 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count179
 \LT@p@ftn=\toks46
 )
-Class scrbook Info: longtable captions redefined on input line 5.
-
+Class scrbook Info: longtable captions redefined on input line 28.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count180
+\c@subtable=\count181
+)
 (./settings/settings.tex) (./settings/commands.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/ix-name.def
 File: ix-name.def 2011/05/27 v1.10 Name list (inputenx)
@@ -1464,16 +1469,16 @@ Package nag Info: Command \RaggedRight not defined, skipping amendment on input
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count180
+\scratchcounter=\count182
 \scratchdimen=\dimen207
 \scratchbox=\box49
-\nofMPsegments=\count181
-\nofMParguments=\count182
+\nofMPsegments=\count183
+\nofMParguments=\count184
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count183
+\MPscratchCnt=\count185
 \MPscratchDim=\dimen208
-\MPnumerator=\count184
-\makeMPintoPDFobject=\count185
+\MPnumerator=\count186
+\makeMPintoPDFobject=\count187
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1490,7 +1495,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count186
+\c@lstlisting=\count188
 Package scrhack Info: undefining \float@addtolists on input line 15.
 
 ABD: EveryShipout initializing macros
@@ -1528,7 +1533,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count187
+\c@section@level=\count189
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
@@ -1698,12 +1703,46 @@ Package pdftex.def Info: figures/webtool.png used on input line 51.
 
 LaTeX Warning: Citation `sec:rs_alrs' on page 26 undefined on input line 103.
 
-[26] [27] [28] [29] [30]) (./chapters/evaluation.tex [31]
+[26] [27] [28] [29] [30] <figures/setting1.png, id=590, 481.8pt x 857.2025pt>
+File: figures/setting1.png Graphic file (type png)
+
+<use figures/setting1.png>
+Package pdftex.def Info: figures/setting1.png used on input line 186.
+(pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
+
+<figures/setting2.png, id=591, 481.8pt x 857.2025pt>
+File: figures/setting2.png Graphic file (type png)
+
+<use figures/setting2.png>
+Package pdftex.def Info: figures/setting2.png used on input line 192.
+(pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
+ [31 <./figures/setting1.png> <./figures/setting2.png>] <figures/recommlist.png
+, id=599, 481.8pt x 857.2025pt>
+File: figures/recommlist.png Graphic file (type png)
+
+<use figures/recommlist.png>
+Package pdftex.def Info: figures/recommlist.png used on input line 207.
+(pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
+
+<figures/recommdetail.png, id=600, 481.8pt x 857.2025pt>
+File: figures/recommdetail.png Graphic file (type png)
+
+<use figures/recommdetail.png>
+Package pdftex.def Info: figures/recommdetail.png used on input line 213.
+(pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
+ [32 <./figures/recommlist.png> <./figures/recommdetail.png>] <figures/recommde
+tailmap.png, id=608, 481.8pt x 857.2025pt>
+File: figures/recommdetailmap.png Graphic file (type png)
+
+<use figures/recommdetailmap.png>
+Package pdftex.def Info: figures/recommdetailmap.png used on input line 227.
+(pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
+) (./chapters/evaluation.tex [33 <./figures/recommdetailmap.png>]
 Chapter 4.
-[32
+[34
 
 
-] [33] [34] [35] [36] [37] [38]
+] [35] [36] [37] [38] [39] [40]
 Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\T1/pplx/m/n/10.95 (+20) Decision
  []
@@ -1738,7 +1777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/pplx/m/n/10.95 (+20) Pref-er-
  []
 
-[39] <figures/predictionAccuracy.png, id=626, 362.3136pt x 218.2554pt>
+[41] <figures/predictionAccuracy.png, id=654, 362.3136pt x 218.2554pt>
 File: figures/predictionAccuracy.png Graphic file (type png)
 
 <use figures/predictionAccuracy.png>
@@ -1746,77 +1785,77 @@ Package pdftex.def Info: figures/predictionAccuracy.png used on input line 147.
 
 (pdftex.def)             Requested size: 239.94592pt x 144.54pt.
 
-<figures/critiquingCycles.png, id=627, 362.7954pt x 217.7736pt>
+<figures/critiquingCycles.png, id=655, 362.7954pt x 217.7736pt>
 File: figures/critiquingCycles.png Graphic file (type png)
 
 <use figures/critiquingCycles.png>
 Package pdftex.def Info: figures/critiquingCycles.png used on input line 162.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
- [40 <./figures/predictionAccuracy.png>]
-<figures/critiquingTime.png, id=635, 362.3136pt x 217.7736pt>
+ [42 <./figures/predictionAccuracy.png>]
+<figures/critiquingTime.png, id=663, 362.3136pt x 217.7736pt>
 File: figures/critiquingTime.png Graphic file (type png)
 
 <use figures/critiquingTime.png>
 Package pdftex.def Info: figures/critiquingTime.png used on input line 174.
 (pdftex.def)             Requested size: 240.47665pt x 144.54pt.
- [41 <./figures/critiquingCycles.png> <./figures/critiquingTime.png>]
-<figures/easeOfUse.png, id=646, 724.6272pt x 217.7736pt>
+ [43 <./figures/critiquingCycles.png> <./figures/critiquingTime.png>]
+<figures/easeOfUse.png, id=673, 724.6272pt x 217.7736pt>
 File: figures/easeOfUse.png Graphic file (type png)
 
 <use figures/easeOfUse.png>
 Package pdftex.def Info: figures/easeOfUse.png used on input line 189.
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
- [42 <./figures/easeOfUse.png>]
-<figures/effectiveness.png, id=655, 724.6272pt x 218.2554pt>
+ [44 <./figures/easeOfUse.png>]
+<figures/effectiveness.png, id=682, 724.6272pt x 218.2554pt>
 File: figures/effectiveness.png Graphic file (type png)
 
 <use figures/effectiveness.png>
 Package pdftex.def Info: figures/effectiveness.png used on input line 202.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
 
-<figures/contextBenefits.png, id=656, 724.6272pt x 218.2554pt>
+<figures/contextBenefits.png, id=683, 724.6272pt x 218.2554pt>
 File: figures/contextBenefits.png Graphic file (type png)
 
 <use figures/contextBenefits.png>
 Package pdftex.def Info: figures/contextBenefits.png used on input line 213.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
- [43 <./figures/effectiveness.png>]
-<figures/satisfaction.png, id=663, 725.109pt x 218.7372pt>
+ [45 <./figures/effectiveness.png>]
+<figures/satisfaction.png, id=690, 725.109pt x 218.7372pt>
 File: figures/satisfaction.png Graphic file (type png)
 
 <use figures/satisfaction.png>
 Package pdftex.def Info: figures/satisfaction.png used on input line 228.
 (pdftex.def)             Requested size: 407.27533pt x 122.85876pt.
- [44 <./figures/contextBenefits.png>]
-<figures/usefulness.png, id=671, 725.109pt x 218.2554pt>
+ [46 <./figures/contextBenefits.png>]
+<figures/usefulness.png, id=699, 725.109pt x 218.2554pt>
 File: figures/usefulness.png Graphic file (type png)
 
 <use figures/usefulness.png>
 Package pdftex.def Info: figures/usefulness.png used on input line 239.
 (pdftex.def)             Requested size: 408.17154pt x 122.85876pt.
- [45 <./figures/satisfaction.png> <./figures/usefulness.png>] <figures/clearnes
-s.png, id=682, 724.1454pt x 218.2554pt>
+ [47 <./figures/satisfaction.png> <./figures/usefulness.png>] <figures/clearnes
+s.png, id=711, 724.1454pt x 218.2554pt>
 File: figures/clearness.png Graphic file (type png)
 
 <use figures/clearness.png>
 Package pdftex.def Info: figures/clearness.png used on input line 250.
 (pdftex.def)             Requested size: 407.62912pt x 122.85876pt.
 
-<figures/generalPreference.png, id=683, 362.7954pt x 217.7736pt>
+<figures/generalPreference.png, id=712, 362.7954pt x 217.7736pt>
 File: figures/generalPreference.png Graphic file (type png)
 
 <use figures/generalPreference.png>
 Package pdftex.def Info: figures/generalPreference.png used on input line 263.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
- [46 <./figures/clearness.png> <./figures/generalPreference.png>]
-<figures/systemSatisfaction.png, id=693, 724.6272pt x 217.7736pt>
+ [48 <./figures/clearness.png> <./figures/generalPreference.png>]
+<figures/systemSatisfaction.png, id=722, 724.6272pt x 217.7736pt>
 File: figures/systemSatisfaction.png Graphic file (type png)
 
 <use figures/systemSatisfaction.png>
 Package pdftex.def Info: figures/systemSatisfaction.png used on input line 277.
 
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
- [47 <./figures/systemSatisfaction.png>]
+ [49 <./figures/systemSatisfaction.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 312--312
 []|\T1/pplx/m/n/10.95 (+20) Explanation
  []
@@ -1841,12 +1880,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []|\T1/pplx/m/n/10.95 (+20) Completion
  []
 
-[48] [49]) (./chapters/conclusionsAndFutureWork.tex [50]
+[50] [51]) (./chapters/conclusionsAndFutureWork.tex [52]
 Chapter 5.
-[51
+[53
 
 
-]) (./appendix/upcc.tex [52]
+]) (./appendix/upcc.tex [54]
 Appendix A.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 17.
@@ -2504,17 +2543,17 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 75--76
 []|\T1/pplx/m/n/9 (-20) 0.85| 
  []
 
-[53
+[55
 
 
-]) [54]
+]) [56]
 Package tocbasic Info: character protrusion at lof deactivated on input line 43
 .
  (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [55
+ [57
 
 
 ]
@@ -2524,15 +2563,15 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 44
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- (./main.bbl [56
+ (./main.bbl [58
 
 
-] [57
+] [59
 
 
-] [58])
+] [60])
 No complaints by nag.
-[59]
+[61]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./main.aux)
@@ -2549,13 +2588,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35702 strings out of 493117
- 770705 string characters out of 6135433
- 1054329 words of memory out of 5000000
- 37915 multiletter control sequences out of 15000+600000
- 80028 words of font info for 338 fonts, out of 8000000 for 9000
+ 35820 strings out of 493117
+ 772772 string characters out of 6135433
+ 1056208 words of memory out of 5000000
+ 38004 multiletter control sequences out of 15000+600000
+ 83225 words of font info for 349 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,83p,1810b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,15n,83p,1850b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -2566,10 +2605,10 @@ exmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2014/texmf-dis
 t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (67 pages, 976992 bytes).
+Output written on main.pdf (69 pages, 1443234 bytes).
 PDF statistics:
- 864 PDF objects out of 1000 (max. 8388607)
- 746 compressed objects within 8 object streams
- 201 named destinations out of 1000 (max. 500000)
- 52155 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 895 PDF objects out of 1000 (max. 8388607)
+ 770 compressed objects within 8 object streams
+ 207 named destinations out of 1000 (max. 500000)
+ 58324 words of extra memory for PDF output out of 61914 (max. 10000000)
 
