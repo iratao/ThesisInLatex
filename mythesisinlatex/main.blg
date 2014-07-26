@@ -3,47 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: literature.bib
+Warning--entry type for "ref:4" isn't style-file defined
+--line 76 of file literature.bib
+Warning--entry type for "ref:16" isn't style-file defined
+--line 176 of file literature.bib
 Warning--to sort, need author or key in ref:42
 Warning--to sort, need author or key in ref:43
-You've used 12 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            561 strings with 5466 characters,
-and the built_in function-call counts, 4045 in all, are:
-= -- 405
-> -- 159
-< -- 4
-+ -- 65
-- -- 52
-* -- 255
-:= -- 623
-add.period$ -- 35
-call.type$ -- 12
-change.case$ -- 60
+            676 strings with 8739 characters,
+and the built_in function-call counts, 12536 in all, are:
+= -- 1280
+> -- 505
+< -- 14
++ -- 205
+- -- 166
+* -- 792
+:= -- 1944
+add.period$ -- 110
+call.type$ -- 35
+change.case$ -- 185
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 172
-empty$ -- 353
-format.name$ -- 52
-if$ -- 891
+cite$ -- 37
+duplicate$ -- 528
+empty$ -- 1058
+format.name$ -- 166
+if$ -- 2757
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 20
-pop$ -- 93
+int.to.str$ -- 35
+missing$ -- 30
+newline$ -- 170
+num.names$ -- 66
+pop$ -- 250
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 151
 quote$ -- 0
-skip$ -- 127
+skip$ -- 397
 stack$ -- 0
-substring$ -- 250
-swap$ -- 46
-text.length$ -- 4
+substring$ -- 807
+swap$ -- 157
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 136
 warning$ -- 2
-while$ -- 38
-width$ -- 14
-write$ -- 123
-(There were 2 warnings)
+while$ -- 128
+width$ -- 37
+write$ -- 373
+(There were 4 warnings)

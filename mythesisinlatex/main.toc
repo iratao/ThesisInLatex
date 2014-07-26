@@ -17,50 +17,50 @@
 \contentsline {subsubsection}{\nonumberline Context-aware Computing}{12}{section*.6}
 \contentsline {subsubsection}{\nonumberline Context and Reasoning Processes}{13}{section*.7}
 \contentsline {subsubsection}{\nonumberline Obtaining Contextual Information}{15}{section*.8}
-\contentsline {subsubsection}{\nonumberline Relevance of contextual information}{15}{section*.9}
+\contentsline {subsubsection}{\nonumberline Relevance of Contextual Information}{15}{section*.9}
 \contentsline {subsubsection}{\nonumberline Incorporating Context into Recommender Systems}{16}{section*.10}
 \contentsline {subsection}{\numberline {2.1.5}Mobile Recommender System}{16}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Baseline System}{18}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.6}Baseline System}{17}{subsection.2.1.6}
 \contentsline {subsection}{\numberline {2.1.7}Methodology for Developing CARS}{20}{subsection.2.1.7}
 \contentsline {chapter}{\numberline {3}Build the System}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Acquiring Context Relevance}{21}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Analysis of Context Relevance}{22}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}The Proposed Approach}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}Towards Case-Based Recommender Systems}{24}{section.3.3}
-\contentsline {section}{\numberline {3.4}Case Model}{25}{section.3.4}
-\contentsline {section}{\numberline {3.5}Similarity Assessment}{26}{section.3.5}
-\contentsline {section}{\numberline {3.6}Explanation Generation}{27}{section.3.6}
-\contentsline {section}{\numberline {3.7}Interaction and Interface Design}{28}{section.3.7}
-\contentsline {chapter}{\numberline {4}Evaluation}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Motivation and Goals}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data Set}{32}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Data Set for Clothes Items}{32}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Data Set for Context Case Base}{33}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Test Setup}{34}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Testing Framework}{34}{subsection.4.3.1}
-\contentsline {subsubsection}{\nonumberline Prediction Accuracy}{34}{section*.11}
-\contentsline {subsubsection}{\nonumberline Decision Effort}{34}{section*.12}
-\contentsline {subsubsection}{\nonumberline Context Benefits}{35}{section*.13}
-\contentsline {subsubsection}{\nonumberline Explanation Benefits}{35}{section*.14}
-\contentsline {subsection}{\numberline {4.3.2}Testing Procedure}{35}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Results}{37}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Participants}{38}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Overview}{38}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Prediction Accuracy}{39}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Decision Efficiency}{39}{subsection.4.4.4}
-\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{39}{section*.17}
-\contentsline {subsubsection}{\nonumberline Critiquing Time}{40}{section*.19}
-\contentsline {subsubsection}{\nonumberline Ease of Use}{41}{section*.21}
-\contentsline {subsubsection}{\nonumberline Effectiveness}{41}{section*.23}
-\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{42}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{43}{subsection.4.4.6}
-\contentsline {subsubsection}{\nonumberline Satisfaction}{43}{section*.26}
-\contentsline {subsubsection}{\nonumberline Usefulness}{44}{section*.28}
-\contentsline {subsubsection}{\nonumberline Clearness}{44}{section*.30}
-\contentsline {subsection}{\numberline {4.4.7}System Preference}{45}{subsection.4.4.7}
-\contentsline {subsubsection}{\nonumberline General Preference}{45}{section*.32}
-\contentsline {subsubsection}{\nonumberline Satisfaction}{46}{section*.34}
-\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{46}{subsection.4.4.8}
-\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{47}{subsection.4.4.9}
-\contentsline {section}{\numberline {4.5}Discussion}{48}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{50}{chapter.5}
+\contentsline {subsection}{\numberline {3.1.1}Analysis of Context Relevance}{23}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}The Proposed Approach}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Towards Case-Based Recommender Systems}{25}{section.3.3}
+\contentsline {section}{\numberline {3.4}Case Model}{26}{section.3.4}
+\contentsline {section}{\numberline {3.5}Similarity Assessment}{27}{section.3.5}
+\contentsline {section}{\numberline {3.6}Explanation Generation}{28}{section.3.6}
+\contentsline {section}{\numberline {3.7}Interaction and Interface Design}{29}{section.3.7}
+\contentsline {chapter}{\numberline {4}Evaluation}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Motivation and Goals}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Set}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Data Set for Clothes Items}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Data Set for Context Case Base}{34}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Test Setup}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Testing Framework}{35}{subsection.4.3.1}
+\contentsline {subsubsection}{\nonumberline Prediction Accuracy}{35}{section*.12}
+\contentsline {subsubsection}{\nonumberline Decision Effort}{35}{section*.13}
+\contentsline {subsubsection}{\nonumberline Context Benefits}{36}{section*.14}
+\contentsline {subsubsection}{\nonumberline Explanation Benefits}{36}{section*.15}
+\contentsline {subsection}{\numberline {4.3.2}Testing Procedure}{36}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Results}{38}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Participants}{39}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Overview}{39}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Prediction Accuracy}{40}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Decision Efficiency}{40}{subsection.4.4.4}
+\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{40}{section*.18}
+\contentsline {subsubsection}{\nonumberline Critiquing Time}{41}{section*.20}
+\contentsline {subsubsection}{\nonumberline Ease of Use}{42}{section*.22}
+\contentsline {subsubsection}{\nonumberline Effectiveness}{42}{section*.24}
+\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{43}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{44}{subsection.4.4.6}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{44}{section*.27}
+\contentsline {subsubsection}{\nonumberline Usefulness}{45}{section*.29}
+\contentsline {subsubsection}{\nonumberline Clearness}{45}{section*.31}
+\contentsline {subsection}{\numberline {4.4.7}System Preference}{46}{subsection.4.4.7}
+\contentsline {subsubsection}{\nonumberline General Preference}{46}{section*.33}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{47}{section*.35}
+\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{47}{subsection.4.4.8}
+\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{48}{subsection.4.4.9}
+\contentsline {section}{\numberline {4.5}Discussion}{49}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{51}{chapter.5}

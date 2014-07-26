@@ -6,17 +6,78 @@ Android design principles, July 2014.
 \bibitem{ref:42}
 Android, the world's most popular mobile platform, July 2014.
 
+\bibitem{ref:2}
+Gediminas Adomavicius and Alexander Tuzhilin.
+\newblock Context-aware recommender systems.
+\newblock In {\em Recommender systems handbook}, pages 217--253. Springer,
+  2011.
+
 \bibitem{ref:5}
 Linas Baltrunas, Bernd Ludwig, Stefan Peer, and Francesco Ricci.
 \newblock Context relevance assessment and exploitation in mobile recommender
   systems.
 \newblock {\em Personal and Ubiquitous Computing}, 16(5):507--526, 2012.
 
+\bibitem{ref:18}
+Linas Baltrunas, Bernd Ludwig, and Francesco Ricci.
+\newblock Context relevance assessment for recommender systems.
+\newblock In {\em Proceedings of the 16th international conference on
+  Intelligent user interfaces}, pages 287--290. ACM, 2011.
+
+\bibitem{ref:13}
+Victoria Bellotti, Bo~Begole, Ed~H Chi, Nicolas Ducheneaut, Ji~Fang, Ellen
+  Isaacs, Tracy King, Mark~W Newman, Kurt Partridge, Bob Price, et~al.
+\newblock Activity-based serendipitous recommendations with the magitti mobile
+  leisure guide.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1157--1166. ACM, 2008.
+
+\bibitem{ref:27}
+Derek Bridge and Alex Ferguson.
+\newblock Diverse product recommendations using an expressive language for case
+  retrieval.
+\newblock In {\em Advances in Case-Based Reasoning}, pages 43--57. Springer,
+  2002.
+
+\bibitem{ref:7}
+Peter~J Brown, John~D Bovey, and Xian Chen.
+\newblock Context-aware applications: from the laboratory to the marketplace.
+\newblock {\em Personal Communications, IEEE}, 4(5):58--64, 1997.
+
 \bibitem{ref:23}
 Robin Burke.
 \newblock Knowledge-based recommender systems.
 \newblock {\em Encyclopedia of library and information systems}, 69(Supplement
   32):175--186, 2000.
+
+\bibitem{ref:14}
+Guanling Chen, David Kotz, et~al.
+\newblock A survey of context-aware mobile computing research.
+\newblock Technical report, Technical Report TR2000-381, Dept. of Computer
+  Science, Dartmouth College, 2000.
+
+\bibitem{ref:11}
+Anind~K Dey.
+\newblock Context-aware computing: The cyberdesk project.
+\newblock In {\em Proceedings of the AAAI 1998 Spring Symposium on Intelligent
+  Environments}, pages 51--54, 1998.
+
+\bibitem{ref:1}
+Anind~K Dey.
+\newblock Understanding and using context.
+\newblock {\em Personal and ubiquitous computing}, 5(1):4--7, 2001.
+
+\bibitem{ref:3}
+Anind~K Dey, Gregory~D Abowd, and Daniel Salber.
+\newblock A conceptual framework and a toolkit for supporting the rapid
+  prototyping of context-aware applications.
+\newblock {\em Human-computer interaction}, 16(2):97--166, 2001.
+
+\bibitem{ref:9}
+Anind~K Dey, Gregory~D Abowd, and Daniel Salber.
+\newblock A conceptual framework and a toolkit for supporting the rapid
+  prototyping of context-aware applications.
+\newblock {\em Human-computer interaction}, 16(2):97--166, 2001.
 
 \bibitem{ref:24}
 Alexander Felfernig, Gerhard Friedrich, Dietmar Jannach, and Markus Zanker.
@@ -29,17 +90,53 @@ Janet~L Kolodner.
 \newblock An introduction to case-based reasoning.
 \newblock {\em Artificial Intelligence Review}, 6(1):3--34, 1992.
 
+\bibitem{ref:30}
+B{\'e}atrice Lamche, Uwe Trottmann, and Wolfgang W{\"o}rndl.
+\newblock Active learning strategies for exploratory mobile recommender
+  systems.
+\newblock In {\em Proceedings of the 4th Workshop on Context-Awareness in
+  Retrieval and Recommendation}, pages 10--17. ACM, 2014.
+
 \bibitem{ref:22}
 Fabiana Lorenzi and Francesco Ricci.
 \newblock Case-based recommender systems: a unifying view.
 \newblock In {\em Intelligent Techniques for Web Personalization}, pages
   89--113. Springer, 2005.
 
+\bibitem{ref:31}
+Lorraine McGinty and Barry Smyth.
+\newblock Tweaking critiquing.
+\newblock In {\em Proceedings of the Workshop on Personalization and Web
+  Techniques at the International Joint Conference on Artificial Intelligence
+  (IJCAI-03)}, pages 20--27, 2003.
+
 \bibitem{ref:44}
 David McSherry.
 \newblock Similarity and compromise.
 \newblock In {\em Case-Based Reasoning Research and Development}, pages
   291--305. Springer, 2003.
+
+\bibitem{ref:19}
+Cosimo Palmisano, Alexander Tuzhilin, and Michele Gorgoglione.
+\newblock Using context to improve predictive modeling of customers in
+  personalization applications.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  20(11):1535--1549, 2008.
+
+\bibitem{ref:32}
+CK~Prahalad.
+\newblock Beyond crm: Ck prahalad predicts customer context is the next big
+  thing.
+\newblock {\em American Management Association MwWorld}, 2004.
+
+\bibitem{ref:4}
+Francesco Ricci.
+\newblock Contextualizing useful recommendations.
+
+\bibitem{ref:40}
+Francesco Ricci.
+\newblock Mobile recommender systems.
+\newblock {\em Information Technology \& Tourism}, 12(3):205--231, 2010.
 
 \bibitem{ref:26}
 Francesco Ricci, Bora Arslan, Nader Mirzadeh, and Adriano Venturini.
@@ -52,6 +149,19 @@ Francesco Ricci, Lior Rokach, and Bracha Shapira.
 \newblock {\em Introduction to recommender systems handbook}.
 \newblock Springer, 2011.
 
+\bibitem{ref:29}
+Neil Rubens, Dain Kaplan, and Masashi Sugiyama.
+\newblock Active learning in recommender systems.
+\newblock In {\em Recommender Systems Handbook}, pages 735--767. Springer,
+  2011.
+
+\bibitem{ref:8}
+Nick~S Ryan, Jason Pascoe, and David~R Morse.
+\newblock Enhanced reality fieldwork: the context-aware archaeological
+  assistant.
+\newblock In {\em Computer applications in archaeology}. Tempus Reparatum,
+  1998.
+
 \bibitem{ref:12}
 Norma~Saiph Savage, Maciej Baranski, Norma~Elva Chavez, and Tobias
   H{\"o}llerer.
@@ -59,8 +169,32 @@ Norma~Saiph Savage, Maciej Baranski, Norma~Elva Chavez, and Tobias
   system}.
 \newblock Springer, 2012.
 
+\bibitem{ref:15}
+Bill Schilit, Norman Adams, and Roy Want.
+\newblock Context-aware computing applications.
+\newblock In {\em Mobile Computing Systems and Applications, 1994. WMCSA 1994.
+  First Workshop on}, pages 85--90. IEEE, 1994.
+
+\bibitem{ref:6}
+Bill~N Schilit and Marvin~M Theimer.
+\newblock Disseminating active map information to mobile hosts.
+\newblock {\em Network, IEEE}, 8(5):22--32, 1994.
+
 \bibitem{ref:39}
 S~Shen and B~Blau.
 \newblock Market trends: Mobile app stores, worldwide, 2012, 2012.
+
+\bibitem{ref:28}
+Barry Smyth.
+\newblock Case-based recommendation.
+\newblock In {\em The adaptive web}, pages 342--376. Springer, 2007.
+
+\bibitem{ref:16}
+Wikipedia.
+\newblock Google driverless car, July 2014.
+
+\bibitem{ref:41}
+Wikipedia.
+\newblock Indoor positioning system, July 2014.
 
 \end{thebibliography}

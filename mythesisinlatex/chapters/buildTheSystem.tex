@@ -1,18 +1,50 @@
 \chapter{Build the System}\label{chapter:build}
 
+In the next chapter, a detail description of the process of the system development following the methodology introduced before and how the methodology was adapted and implemented are presented. 
+
 \section{Acquiring Context Relevance} \label{sec:acr}
 
-The first step of the methodology is to discover the relevance of the contextual factor to our current implementation domain (i.e. clothes shopping). 
+The first step of the methodology is to discover the relevance of the contextual factors to the current implementation domain (i.e. clothes shopping). 
 
-To adapt the recommendations to the user?s current contextual situation requires an understanding of the relationship between user preferences and contextual conditions. Thus it is proposed that explicit user ratings or any form of preferences should be given under several different contextual conditions. For instance, the user must rate a given clothing item when the temperature is hot, warm and cold which is quite time and resource consuming because user needs to only give ratings after they have experienced the context. Therefore, to reduce the risk of collecting data for unimportant context factors, an experiment needs to be first set up to determine which context factors are interesting to study. 
+To adapt the recommendations to the user's current contextual situation requires an understanding of the relationship between user preferences and contextual conditions. Thus it is proposed that explicit user ratings or any form of preferences should be given under several different contextual conditions. For instance, the user must rate a given clothes item when the temperature is hot, warm and cold. It is quite time and resource consuming because the user needs to only give ratings after they have experienced the context. Therefore, to reduce the risk of collecting data for unimportant context factors, an experiment needs to be first set up to determine which context factors are interesting to study \cite{ref:18}. 
 
-We would like to know how the influence of each contextual factors change for different clothes types on user?s purchasing decisions and we also want to have a quantitative measure so that it can be used as weight in the similarity measurement in the following retrieving algorithm. 
+The experiment should be able to investigate how the influence of each contextual factors changes on user's purchasing decision for different clothes types and to provide quantitative measurements so that they can be used as weight in the similarity measurement in the following retrieving algorithm. Considering all above reasons, the methodology developed in paper \cite{ref:18} was adopted to assess the context relevance.
 
-Consider all above reasons, we adopt the methodology developed in paper [18] to assess the context relevance.
+This methodology is based on a web tool for acquiring context relevance judgements and a statistical data analysis method to quantitatively measure the influence of each contextual conditions on different clothes types. Following this methodology, a web survey was designed and developed in this thesis. First, an initial set of contextual factors and conditions (values for the factors) were selected referring to some existing literatures about context-aware applications \cite{ref:5, ref:12, ref:19}. The selected contextual factors and conditions are listed in Table \ref{tab:factors}. Then, the clothes items were retrieved from Zalando \footnote{http://www.zalando.co.uk/}. Especially, clothes of these brands are collected: Marc O'Polo, Tom Tailor, Esprit, S.Oliver, Benetton. Because these five brands are in the middle price category and are well known and generally acceptable by most people. Moreover, the types and number of clothes offered by these brands are similar to each other and are rich enough to cover most common clothes types. After the clothes were retrieved, they were aggregated into a relatively small list of categories so that the problem of data sparseness can be avoided. Totally, 14 categories were defined: tops, dresses, underwear, cardigans, trousers, coats, blouses, jackets, skirts, jeans, socks, swimwear, suits and shirts.
 
-This methodology is based on a web tool for acquiring context relevance judgements and a statistical data analysis method to quantitatively measure the influence of each contextual conditions on different clothes category. Following this methodology, we designed and developed a web survey. First, an initial set of contextual factors and conditions (values for the factors) were selected referring to some existing literatures about context-aware applications [5, 12, 19]. The selected contextual factors and conditions are listed in Table 1. Then, the clothes items were retrieved from zalando.co.uk. Especially, clothes of these brands are collected: Marc O'Polo, Tom Tailor, Esprit, S.Oliver, Benetton. Because these five brands are in the middle price category and are well known and generally acceptable by most people. Moreover, the types and number of clothes offered by these brands are similar to each other and are rich enough to cover most common clothes types. After the clothes were retrieved, they were aggregated into a relatively small list of categories so that the problem of data sparseness can be avoided. Totally, 14 categories were defined: tops, dresses, underwear, cardigans, trousers, coats, blouses, jackets, skirts, jeans, socks, swimwear, suits and shirts.
+\begin{table}[H]
+	\centering
+	\caption{Context factors used in the Web survey}
+	\label{tab:factors}
+	\begin{tabular}{p{1.1in}p{1.6in}|p{1.1in}p{1.6in}} \hline
+		Context Factor & Conditions  & Context Factor & Conditions  \\ \hline 
+		budget & budget buyer & purchasing intent & work \\
+ 		& high spender &  & daily wear \\
+ 		& price-for-quality buyer &  & party \\
+		time of the day & morning time &  & sports \\
+ 		& afternoon &  & no special \\
+ 		& night time & companion & with girl-/boy-friend \\
+		day of the week & weekend &  & with family  \\
+		& working day &  & with children \\
+		crowdedness & shop is crowded &  & alone \\
+		& shop is not crowded &  & with friends \\
+		& shop is empty & weather  & snowing \\
+		mood & shopaholic &  & clear sky \\
+		& outdoorsy &  & sunny \\
+		& like a party animal &  & raining \\
+		& normal &  & cloudy \\	
+		season & spring & transport & walking \\
+ 		& summer &  & public transport \\
+ 		& autumn &  & bicycle \\
+ 		& winter &  & car \\
+		temperature & warm & time available & half day \\
+ 		& cold &  & one day \\
+ 		& hot \\
+	\end{tabular}
+\end{table}
 
-After the data was prepared, a simple web application was developed for acquiring the relevance of the selected contextual factors for the clothes categories (see Figure 1). In the web application, the user will be randomly given a clothes category and will be asked to imagine themselves being under a randomly chosen contextual condition and then choose the influence of the selected contextual condition on their intention to buy the selected type of clothes. As an example of the questions posed to the user consider the situation depicted in Figure 1. Here we first ask the user to imagine a typical shopping scenario: ?Imagine that you are in Munich and you are doing offline shopping for clothes. You are thinking about buying Skirts.? Then the user is asked to select the influence (i.e., positive, no effect, negative) of the three randomly chosen contextual conditions on their decision to buy the clothes. As an example of a contextual condition: ?Imagine that the weather is cloudy.? Every user was requested to interact with at least 10 of these pages (as in Figure 1). 
+
+After the data was prepared, a simple web application was developed for acquiring the relevance of the selected contextual factors for the clothes categories (see Figure 1). In the web application, the user will be randomly given a clothes category and will be asked to imagine themselves being under a randomly chosen contextual condition and then choose the influence of the selected contextual condition on their intention to buy the selected type of clothes. As an example of the questions posed to the user consider the situation depicted in Figure 1. Here we first ask the user to imagine a typical shopping scenario: ?Imagine that you are in Munich and you are doing offline shopping for clothes. You are thinking about buying Skirts.? Then the user is asked to select the influence (i.e., positive, no effect, negative) of the three randomly chosen contextual conditions on their decision to buy the clothes. As an example of a contextual condition: "Imagine that the weather is cloudy." Every user was requested to interact with at least 10 of these pages (as in Figure 1). 
 
 38 participants took part in this web survey. Overall 1190 responses were given to one of the questions shown in Figure 1. Because no pre-knowledge is known whether certain context conditions are more likely to influence user?s decision, we sampled the value of clothes categories and contextual conditions using uniform distribution so that all possible values can be reached with equal opportunities.
 
