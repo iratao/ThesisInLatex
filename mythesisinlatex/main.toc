@@ -20,13 +20,13 @@
 \contentsline {subsubsection}{\nonumberline Relevance of Contextual Information}{15}{section*.9}
 \contentsline {subsubsection}{\nonumberline Incorporating Context into Recommender Systems}{16}{section*.10}
 \contentsline {subsection}{\numberline {2.1.5}Mobile Recommender System}{16}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Baseline System}{17}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.6}Baseline System}{18}{subsection.2.1.6}
 \contentsline {subsection}{\numberline {2.1.7}Methodology for Developing CARS}{20}{subsection.2.1.7}
 \contentsline {chapter}{\numberline {3}Build the System}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Acquiring Context Relevance}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Analysis of Context Relevance}{23}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}The Proposed Approach}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Towards Case-Based Recommender System}{26}{section.3.3}
+\contentsline {section}{\numberline {3.3}Towards Case-Based Recommender System}{25}{section.3.3}
 \contentsline {section}{\numberline {3.4}Case Model}{27}{section.3.4}
 \contentsline {section}{\numberline {3.5}Similarity Assessment}{28}{section.3.5}
 \contentsline {section}{\numberline {3.6}Explanation Generation}{29}{section.3.6}
@@ -39,29 +39,30 @@
 \contentsline {section}{\numberline {4.3}Test Setup}{37}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Testing Framework}{37}{subsection.4.3.1}
 \contentsline {subsubsection}{\nonumberline Prediction Accuracy}{37}{section*.16}
-\contentsline {subsubsection}{\nonumberline Decision Effort}{37}{section*.17}
+\contentsline {subsubsection}{\nonumberline Decision Effort}{38}{section*.17}
 \contentsline {subsubsection}{\nonumberline Context Benefits}{38}{section*.18}
 \contentsline {subsubsection}{\nonumberline Explanation Benefits}{38}{section*.19}
-\contentsline {subsection}{\numberline {4.3.2}Testing Procedure}{38}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Results}{40}{section.4.4}
+\contentsline {subsection}{\numberline {4.3.2}Testing Procedure}{39}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Results}{41}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Participants}{41}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Overview}{41}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Overview}{42}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Prediction Accuracy}{42}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Decision Efficiency}{42}{subsection.4.4.4}
-\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{42}{section*.22}
-\contentsline {subsubsection}{\nonumberline Critiquing Time}{43}{section*.24}
-\contentsline {subsubsection}{\nonumberline Ease of Use}{44}{section*.26}
-\contentsline {subsubsection}{\nonumberline Effectiveness}{44}{section*.28}
-\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{45}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{46}{subsection.4.4.6}
-\contentsline {subsubsection}{\nonumberline Satisfaction}{46}{section*.31}
-\contentsline {subsubsection}{\nonumberline Usefulness}{47}{section*.33}
-\contentsline {subsubsection}{\nonumberline Clearness}{47}{section*.35}
-\contentsline {subsection}{\numberline {4.4.7}System Preference}{48}{subsection.4.4.7}
-\contentsline {subsubsection}{\nonumberline General Preference}{48}{section*.37}
-\contentsline {subsubsection}{\nonumberline Satisfaction}{49}{section*.39}
-\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{49}{subsection.4.4.8}
-\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{50}{subsection.4.4.9}
-\contentsline {section}{\numberline {4.5}Discussion}{51}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{53}{chapter.5}
-\contentsline {chapter}{\numberline {A}User Preferences for Categories of Clothest}{55}{appendix.A}
+\contentsline {subsection}{\numberline {4.4.4}Decision Efficiency}{43}{subsection.4.4.4}
+\contentsline {subsubsection}{\nonumberline Critiquing Cycles}{43}{section*.22}
+\contentsline {subsubsection}{\nonumberline Critiquing Time}{44}{section*.24}
+\contentsline {subsubsection}{\nonumberline Ease of Use}{45}{section*.26}
+\contentsline {subsubsection}{\nonumberline Effectiveness}{45}{section*.28}
+\contentsline {subsection}{\numberline {4.4.5}Context Benefits}{46}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Explanation Benefits}{47}{subsection.4.4.6}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{47}{section*.31}
+\contentsline {subsubsection}{\nonumberline Usefulness}{48}{section*.33}
+\contentsline {subsubsection}{\nonumberline Clearness}{48}{section*.35}
+\contentsline {subsection}{\numberline {4.4.7}System Preference}{49}{subsection.4.4.7}
+\contentsline {subsubsection}{\nonumberline General Preference}{49}{section*.37}
+\contentsline {subsubsection}{\nonumberline Satisfaction}{50}{section*.39}
+\contentsline {subsection}{\numberline {4.4.8}Informal Feedback}{50}{subsection.4.4.8}
+\contentsline {subsection}{\numberline {4.4.9}Correlation Analysis}{51}{subsection.4.4.9}
+\contentsline {section}{\numberline {4.5}Discussion}{52}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{54}{chapter.5}
+\contentsline {chapter}{\numberline {A}User Preferences for Categories of Clothest}{56}{appendix.A}
+\contentsline {chapter}{\numberline {B}Context Scenarios}{58}{appendix.B}

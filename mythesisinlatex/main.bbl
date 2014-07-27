@@ -85,6 +85,11 @@ Alexander Felfernig, Gerhard Friedrich, Dietmar Jannach, and Markus Zanker.
 \newblock In {\em Recommender systems handbook}, pages 187--215. Springer,
   2011.
 
+\bibitem{ref:36}
+Anthony~G Greenwald.
+\newblock Within-subjects designs: To use or not to use?
+\newblock {\em Psychological Bulletin}, 83(2):314, 1976.
+
 \bibitem{ref:25}
 Janet~L Kolodner.
 \newblock An introduction to case-based reasoning.
@@ -184,6 +189,12 @@ Bill Schilit, Norman Adams, and Roy Want.
 Bill~N Schilit and Marvin~M Theimer.
 \newblock Disseminating active map information to mobile hosts.
 \newblock {\em Network, IEEE}, 8(5):22--32, 1994.
+
+\bibitem{ref:35}
+Guy Shani and Asela Gunawardana.
+\newblock Evaluating recommendation systems.
+\newblock In {\em Recommender systems handbook}, pages 257--297. Springer,
+  2011.
 
 \bibitem{ref:39}
 S~Shen and B~Blau.
