@@ -3,3 +3,14 @@
 %TODO: Abstract
 
 
+This thesis presents a context-aware mobile shopping recommender system that integrates contextual information into an existing recommender system that was built using active learning strategies. The methodology introduced in paper \cite{ref:5} was adopted and adapted to guide the development of the system.
+
+The system integrates the contextual information into an existing recommendation process using a case-based recommendation approach that recommends clothes items bought by other users under contextual situations similar to the one the current user is in. 
+
+Before the system was built, the influence of different context factors on different clothes types was quantitatively assessed first. Following the methodology introduced in paper \cite{ref:18}, a user study was conducted where the influence was rated by the participants through imagining themselves being in different context conditions. The assessed influence was used as importance weights in the similarity metric for retrieving cases.
+
+The cases are retrieved using a similarity metric designed and developed from the Euclidean Overlap Metric (HEOM). The system recommends based on a case base that can be set up using expert-driven approach. To overcome the static suggestion problem of case-based recommendation, a collaborative filtering approach was adopted to provide an effective way for knowledge engineering, in which user's purchased items together with the contextual information can be added as a new case to the case base. 
+
+The Android application integrating the developed system was developed on a baseline system developed in paper \cite{ref:30}. It was evaluated mainly qualitatively with a diverse set of people with different backgrounds. It was shown to perform better regarding prediction accuracy, decision effort and general satisfaction compared to the baseline system that is not context-aware. Users also showed a good understanding of the benefits of using contextual conditions.
+
+

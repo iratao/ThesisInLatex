@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  27 JUL 2014 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  28 JUL 2014 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1429,7 +1429,11 @@ Package selinput Info: Encoding `x-iso-8859-15' selected on input line 13.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-No file main.aux.
+(./main.aux
+
+LaTeX Warning: Label `sec:eg' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -1446,7 +1450,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 15.
@@ -1534,6 +1538,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
+
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1541,30 +1547,29 @@ Package nag Info: Command \hc@caption not defined, skipping amendment on input
 line 15.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 15.
-
-(./pages/cover.tex <logos/tum.pdf, id=7, 53.9634pt x 28.42714pt>
+ (./pages/cover.tex
+<logos/tum.pdf, id=191, 53.9634pt x 28.42714pt>
 File: logos/tum.pdf Graphic file (type pdf)
-
-<use logos/tum.pdf>
+ <use logos/tum.pdf>
 Package pdftex.def Info: logos/tum.pdf used on input line 13.
 (pdftex.def)             Requested size: 113.81102pt x 59.95639pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 25.
- <logos/faculty.pdf, id=8, 33.96803pt x 37.09984pt>
-File: logos/faculty.pdf Graphic file (type pdf)
 
-<use logos/faculty.pdf>
+<logos/faculty.pdf, id=192, 33.96803pt x 37.09984pt>
+File: logos/faculty.pdf Graphic file (type pdf)
+ <use logos/faculty.pdf>
 Package pdftex.def Info: logos/faculty.pdf used on input line 31.
 (pdftex.def)             Requested size: 56.9055pt x 62.15744pt.
- [1
+
+[1
 
 
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
 /tum.pdf> <./logos/faculty.pdf>]) (./pages/title.tex
 File: logos/tum.pdf Graphic file (type pdf)
-
-<use logos/tum.pdf>
+ <use logos/tum.pdf>
 Package pdftex.def Info: logos/tum.pdf used on input line 5.
 (pdftex.def)             Requested size: 113.81102pt x 59.95639pt.
 LaTeX Font Info:    Try loading font information for OT1+pplx on input line 23.
@@ -1610,17 +1615,14 @@ Package pdftex.def Info: logos/faculty.pdf used on input line 31.
 
 
 
-]
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 32.
- [2]) (./pages/disclaimer.tex [3])
-(./pages/acknowledgements.tex [4
+]) (./pages/disclaimer.tex [2])
+(./pages/acknowledgements.tex [3
 
 
 ]) (./pages/abstract.tex
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
-) [5
+) [4
 
 
 
@@ -1628,23 +1630,20 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10.95> not available
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 26
 .
+ (./main.toc
+[5
+
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [6
-
-
-]
-(./chapters/introduction.tex
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 29.
+ [6] (./chapters/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 7.
-
-LaTeX Warning: Citation `ref:39' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation `ref:42' on page 1 undefined on input line 13.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1654,57 +1653,16 @@ l.14
 
 
 
-]
-
-LaTeX Warning: Citation `ref:5' on page 2 undefined on input line 23.
-
-
-LaTeX Warning: Citation `ref:12' on page 2 undefined on input line 23.
-
-
-LaTeX Warning: Citation `ref:26' on page 2 undefined on input line 23.
-
-
-LaTeX Warning: Citation `ref:43' on page 2 undefined on input line 27.
-
-[2]
-
-LaTeX Warning: Citation `ref:5' on page 3 undefined on input line 29.
-
-
-LaTeX Warning: Reference `chapter:introduction' on page 3 undefined on input li
-ne 33.
-
-) (./chapters/foundation.tex [3]
+] [2]) (./chapters/foundation.tex [3]
 Chapter 2.
-
-LaTeX Warning: Citation `ref:21' on page 4 undefined on input line 9.
-
-
-LaTeX Warning: Citation `ref:22' on page 4 undefined on input line 11.
-
-
-LaTeX Warning: Citation `ref:21' on page 4 undefined on input line 11.
-
 LaTeX Font Info:    Try loading font information for TS1+pplx on input line 13.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-)
-
-LaTeX Warning: Citation `ref:22' on page 4 undefined on input line 22.
-
-
-LaTeX Warning: Citation `ref:23' on page 4 undefined on input line 22.
-
-[4
+) [4
 
 
 ]
-
-LaTeX Warning: Citation `ref:24' on page 5 undefined on input line 26.
-
-
 Overfull \hbox (1.1414pt too wide) in paragraph at lines 26--27
 []\T1/pplx/m/n/10.95 (-20) There are two types of knowledge-based RSs: case-bas
 ed rec-om-mender and constraint-
@@ -1712,203 +1670,15 @@ ed rec-om-mender and constraint-
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 28.
-
-LaTeX Warning: Citation `ref:25' on page 5 undefined on input line 30.
-
-[5]
-
-LaTeX Warning: Citation `ref:22' on page 6 undefined on input line 32.
-
-
-LaTeX Warning: Citation `ref:26' on page 6 undefined on input line 36.
-
-
-LaTeX Warning: Citation `ref:44' on page 6 undefined on input line 50.
-
-[6]
-
-LaTeX Warning: Reference `eq:similarity' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Reference `eq:symsim' on page 7 undefined on input line 66.
-
-
-LaTeX Warning: Citation `ref:27' on page 7 undefined on input line 66.
-
-[7]
-
-LaTeX Warning: Reference `eq:asymsim' on page 8 undefined on input line 71.
-
-
-LaTeX Warning: Citation `ref:28' on page 8 undefined on input line 71.
-
-
-LaTeX Warning: Citation `ref:29' on page 8 undefined on input line 80.
-
-
-LaTeX Warning: Citation `ref:22' on page 8 undefined on input line 82.
-
-[8]
-
-LaTeX Warning: Citation `ref:29' on page 9 undefined on input line 93.
-
-
-LaTeX Warning: Citation `ref:30' on page 9 undefined on input line 93.
-
-
-LaTeX Warning: Citation `ref:29' on page 9 undefined on input line 95.
-
-[9]
-
-LaTeX Warning: Citation `ref:32' on page 10 undefined on input line 108.
-
-[10]
-
-LaTeX Warning: Citation `ref:2' on page 11 undefined on input line 112.
-
-
-LaTeX Warning: Citation `ref:3' on page 11 undefined on input line 112.
-
-
-LaTeX Warning: Citation `ref:5' on page 11 undefined on input line 112.
-
-
-LaTeX Warning: Citation `ref:6' on page 11 undefined on input line 121.
-
-
-LaTeX Warning: Citation `ref:7' on page 11 undefined on input line 121.
-
-
-LaTeX Warning: Citation `ref:8' on page 11 undefined on input line 121.
-
-
-LaTeX Warning: Citation `ref:11' on page 11 undefined on input line 121.
-
-[11]
-
-LaTeX Warning: Citation `ref:9' on page 12 undefined on input line 131.
-
-
-LaTeX Warning: Citation `ref:13' on page 12 undefined on input line 133.
-
-
-LaTeX Warning: Citation `ref:14' on page 12 undefined on input line 137.
-
-
-LaTeX Warning: Citation `ref:1' on page 12 undefined on input line 137.
-
-
-LaTeX Warning: Citation `ref:3' on page 12 undefined on input line 139.
-
-
-LaTeX Warning: Citation `ref:15' on page 12 undefined on input line 140.
-
-
-LaTeX Warning: Citation `ref:16' on page 12 undefined on input line 140.
-
-[12]
-
-LaTeX Warning: Citation `ref:4' on page 13 undefined on input line 146.
-
-
-LaTeX Warning: Citation `ref:4' on page 13 undefined on input line 147.
-
-[13]
-
-LaTeX Warning: Citation `ref:4' on page 14 undefined on input line 160.
-
-
-LaTeX Warning: Citation `ref:5' on page 14 undefined on input line 166.
-
-[14]
-
-LaTeX Warning: Citation `ref:12' on page 15 undefined on input line 180.
-
-
-LaTeX Warning: Citation `ref:2' on page 15 undefined on input line 185.
-
-
-LaTeX Warning: Citation `ref:18' on page 15 undefined on input line 187.
-
-
-LaTeX Warning: Reference `sec:acr' on page 15 undefined on input line 187.
-
-[15]
-
-LaTeX Warning: Citation `ref:2' on page 16 undefined on input line 190.
-
-
-LaTeX Warning: Citation `ref:40' on page 16 undefined on input line 202.
-
-[16]
-
-LaTeX Warning: Citation `ref:40' on page 17 undefined on input line 204.
-
-
-LaTeX Warning: Citation `ref:41' on page 17 undefined on input line 206.
-
-
-LaTeX Warning: Citation `ref:40' on page 17 undefined on input line 206.
-
-
-LaTeX Warning: Citation `ref:30' on page 17 undefined on input line 213.
-
-[17] [18]
-
-LaTeX Warning: Citation `ref:31' on page 19 undefined on input line 223.
-
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 230.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-
-LaTeX Warning: Reference `list:bgs' on page 19 undefined on input line 247.
-
-
-LaTeX Warning: Reference `eq:quality' on page 19 undefined on input line 247.
-
-[19]
-
-LaTeX Warning: Citation `ref:30' on page 20 undefined on input line 254.
-
-
-LaTeX Warning: Citation `ref:30' on page 20 undefined on input line 254.
-
-
-LaTeX Warning: Citation `ref:5' on page 20 undefined on input line 259.
-
-
-LaTeX Warning: Reference `sec:rs_cars_rci' on page 20 undefined on input line 2
-59.
-
-
-LaTeX Warning: Reference `sec:rs_cars_icrs' on page 20 undefined on input line 
-259.
-
-
-LaTeX Warning: Citation `ref:5' on page 20 undefined on input line 261.
-
-) (./chapters/buildTheSystem.tex [20]
+ [19])
+(./chapters/buildTheSystem.tex [20]
 Chapter 3.
-
-LaTeX Warning: Citation `ref:18' on page 21 undefined on input line 9.
-
-
-LaTeX Warning: Citation `ref:18' on page 21 undefined on input line 11.
-
-
-LaTeX Warning: Citation `ref:5' on page 21 undefined on input line 13.
-
-
-LaTeX Warning: Citation `ref:12' on page 21 undefined on input line 13.
-
-
-LaTeX Warning: Citation `ref:19' on page 21 undefined on input line 13.
-
-
-LaTeX Warning: Reference `tab:factors' on page 21 undefined on input line 13.
-
 [21
 
 
@@ -1922,227 +1692,68 @@ Overfull \hbox (20.40417pt too wide) in paragraph at lines 19--44
  [][] 
  []
 
-
-LaTeX Warning: Reference `fig:webtool' on page 22 undefined on input line 47.
-
-
-LaTeX Warning: Reference `fig:webtool' on page 22 undefined on input line 47.
-
-
-LaTeX Warning: Reference `fig:webtool' on page 22 undefined on input line 47.
-
-[22] <figures/webtool.png, id=191, 626.34pt x 343.2825pt>
+[22] <figures/webtool.png, id=520, 626.34pt x 343.2825pt>
 File: figures/webtool.png Graphic file (type png)
 
 <use figures/webtool.png>
 Package pdftex.def Info: figures/webtool.png used on input line 51.
 (pdftex.def)             Requested size: 369.20288pt x 202.35622pt.
-
-
-LaTeX Warning: Reference `fig:webtool' on page 23 undefined on input line 58.
-
-[23 <./figures/webtool.png>]
-
-LaTeX Warning: Citation `ref:45' on page 24 undefined on input line 66.
-
-
-LaTeX Warning: Citation `ref:18' on page 24 undefined on input line 69.
-
-
-LaTeX Warning: Citation `ref:18' on page 24 undefined on input line 73.
-
-
-LaTeX Warning: Reference `appendix:upcc' on page 24 undefined on input line 73.
-
-
-
-LaTeX Warning: Reference `sec:rs_cars_rci' on page 24 undefined on input line 7
-9.
-
-
-LaTeX Warning: Reference `sec:rs_cbrs' on page 24 undefined on input line 79.
-
-
-LaTeX Warning: Citation `ref:5' on page 24 undefined on input line 79.
-
-[24]
-
-LaTeX Warning: Citation `ref:26' on page 25 undefined on input line 83.
-
-
-LaTeX Warning: Reference `sec:rs_cbrs' on page 25 undefined on input line 87.
-
-
-LaTeX Warning: Citation `ref:22' on page 25 undefined on input line 87.
-
-[25]
-
-LaTeX Warning: Reference `sec:sa' on page 26 undefined on input line 97.
-
+ [23 <./figures/webtool.png>] [24] [25]
 
 LaTeX Warning: Citation `sec:rs_alrs' on page 26 undefined on input line 103.
 
-[26]
-
-LaTeX Warning: Citation `ref:26' on page 27 undefined on input line 114.
-
-
-LaTeX Warning: Reference `sec:rs_cars_crp' on page 27 undefined on input line 1
-14.
-
-
-LaTeX Warning: Reference `sec:acr' on page 27 undefined on input line 116.
-
-
-LaTeX Warning: Reference `appendix:upcc' on page 27 undefined on input line 116
-.
-
-
-LaTeX Warning: Reference `tab:factors' on page 27 undefined on input line 116.
-
-
-LaTeX Warning: Citation `ref:30' on page 27 undefined on input line 124.
-
-
-LaTeX Warning: Reference `sec:rs_bs' on page 27 undefined on input line 124.
-
-[27]
-
-LaTeX Warning: Citation `ref:26' on page 28 undefined on input line 130.
-
-
-LaTeX Warning: Citation `ref:34' on page 28 undefined on input line 130.
-
-[28] [29]
-
-LaTeX Warning: Citation `ref:30' on page 30 undefined on input line 177.
-
-
-LaTeX Warning: Reference `fig:contextSettings1' on page 30 undefined on input l
-ine 179.
-
-
-LaTeX Warning: Reference `fig:contextSettings2' on page 30 undefined on input l
-ine 179.
-
-[30] <figures/setting1.png, id=245, 481.8pt x 857.2025pt>
+[26] [27] [28] [29] [30] <figures/setting1.png, id=594, 481.8pt x 857.2025pt>
 File: figures/setting1.png Graphic file (type png)
 
 <use figures/setting1.png>
 Package pdftex.def Info: figures/setting1.png used on input line 186.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
 
-<figures/setting2.png, id=246, 481.8pt x 857.2025pt>
+<figures/setting2.png, id=595, 481.8pt x 857.2025pt>
 File: figures/setting2.png Graphic file (type png)
 
 <use figures/setting2.png>
 Package pdftex.def Info: figures/setting2.png used on input line 192.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
-
-
-LaTeX Warning: Reference `fig:recomm1' on page 31 undefined on input line 201.
-
-
-LaTeX Warning: Reference `fig:recomm2' on page 31 undefined on input line 201.
-
-<figures/recommlist.png, id=247, 481.8pt x 857.2025pt>
+ [31 <./figures/setting1.png> <./figures/setting2.png>] <figures/recommlist.png
+, id=603, 481.8pt x 857.2025pt>
 File: figures/recommlist.png Graphic file (type png)
 
 <use figures/recommlist.png>
 Package pdftex.def Info: figures/recommlist.png used on input line 207.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
 
-<figures/recommdetail.png, id=248, 481.8pt x 857.2025pt>
+<figures/recommdetail.png, id=604, 481.8pt x 857.2025pt>
 File: figures/recommdetail.png Graphic file (type png)
 
 <use figures/recommdetail.png>
 Package pdftex.def Info: figures/recommdetail.png used on input line 213.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
- [31 <./figures/setting1.png> <./figures/setting2.png>]
-
-LaTeX Warning: Reference `fig:detailmap' on page 32 undefined on input line 223
-.
-
-
-LaTeX Warning: Reference `sec:tcbrs' on page 32 undefined on input line 223.
-
-
-LaTeX Warning: Citation `ref:30' on page 32 undefined on input line 223.
-
-[32 <./figures/recommlist.png> <./figures/recommdetail.png>]
-<figures/recommdetailmap.png, id=259, 481.8pt x 857.2025pt>
+ [32 <./figures/recommlist.png> <./figures/recommdetail.png>] <figures/recommde
+tailmap.png, id=612, 481.8pt x 857.2025pt>
 File: figures/recommdetailmap.png Graphic file (type png)
 
 <use figures/recommdetailmap.png>
 Package pdftex.def Info: figures/recommdetailmap.png used on input line 227.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
-
-
-LaTeX Warning: Reference `fig:recomm2' on page 33 undefined on input line 232.
-
 ) (./chapters/evaluation.tex [33 <./figures/recommdetailmap.png>]
 Chapter 4.
-
-LaTeX Warning: Citation `ref:35' on page 34 undefined on input line 9.
-
-
-LaTeX Warning: Citation `ref:35' on page 34 undefined on input line 9.
-
 [34
 
 
-]
-
-LaTeX Warning: Reference `sec:rs_bs' on page 35 undefined on input line 11.
-
-
-LaTeX Warning: Citation `ref:36' on page 35 undefined on input line 11.
-
-
-LaTeX Warning: Reference `sec:acr' on page 35 undefined on input line 19.
-
-[35] [36]
-
-LaTeX Warning: Reference `fig:contextSettings1' on page 37 undefined on input l
-ine 43.
-
-
-LaTeX Warning: Citation `ref:5' on page 37 undefined on input line 49.
-
-
-LaTeX Warning: Citation `ref:35' on page 37 undefined on input line 49.
-
-
-LaTeX Warning: Citation `ref:46' on page 37 undefined on input line 49.
-
-
-LaTeX Warning: Citation `ref:35' on page 37 undefined on input line 53.
-
-
-LaTeX Warning: Citation `ref:38' on page 37 undefined on input line 57.
-
-[37] [38]
-
-LaTeX Warning: Reference `appendix:cs' on page 39 undefined on input line 92.
-
-[39] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T1/pplx/m/n/10.95 (+20) Decision
- []
-
-
+] [35] [36] [37] [38] [39] [40] [41]
 Underfull \hbox (badness 10000) in paragraph at lines 146--146
 []|\T1/pplx/m/n/10.95 (+20) Decision
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 146--146
-\T1/pplx/m/n/10.95 (+20) me to com-plete
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|\T1/pplx/m/n/10.95 (+20) Decision
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\T1/pplx/m/n/10.95 (+20) Decision
+Underfull \hbox (badness 1867) in paragraph at lines 147--147
+\T1/pplx/m/n/10.95 (+20) me to com-plete
  []
 
 
@@ -2152,98 +1763,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|\T1/pplx/m/n/10.95 (+20) Decision
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []|\T1/pplx/m/n/10.95 (+20) System
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 \T1/pplx/m/n/10.95 (+20) Pref-er-
  []
 
-<figures/predictionAccuracy.png, id=320, 362.3136pt x 218.2554pt>
+<figures/predictionAccuracy.png, id=680, 362.3136pt x 218.2554pt>
 File: figures/predictionAccuracy.png Graphic file (type png)
 
 <use figures/predictionAccuracy.png>
-Package pdftex.def Info: figures/predictionAccuracy.png used on input line 159.
+Package pdftex.def Info: figures/predictionAccuracy.png used on input line 160.
 
 (pdftex.def)             Requested size: 239.94592pt x 144.54pt.
  [42]
-<figures/critiquingCycles.png, id=329, 362.7954pt x 217.7736pt>
+<figures/critiquingCycles.png, id=690, 362.7954pt x 217.7736pt>
 File: figures/critiquingCycles.png Graphic file (type png)
 
 <use figures/critiquingCycles.png>
-Package pdftex.def Info: figures/critiquingCycles.png used on input line 174.
+Package pdftex.def Info: figures/critiquingCycles.png used on input line 175.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [43 <./figures/predictionAccuracy.png>]
-<figures/critiquingTime.png, id=338, 362.3136pt x 217.7736pt>
+<figures/critiquingTime.png, id=703, 362.3136pt x 217.7736pt>
 File: figures/critiquingTime.png Graphic file (type png)
 
 <use figures/critiquingTime.png>
-Package pdftex.def Info: figures/critiquingTime.png used on input line 186.
+Package pdftex.def Info: figures/critiquingTime.png used on input line 187.
 (pdftex.def)             Requested size: 240.47665pt x 144.54pt.
  [44 <./figures/critiquingCycles.png> <./figures/critiquingTime.png>]
-<figures/easeOfUse.png, id=348, 724.6272pt x 217.7736pt>
+<figures/easeOfUse.png, id=714, 724.6272pt x 217.7736pt>
 File: figures/easeOfUse.png Graphic file (type png)
 
 <use figures/easeOfUse.png>
-Package pdftex.def Info: figures/easeOfUse.png used on input line 201.
+Package pdftex.def Info: figures/easeOfUse.png used on input line 202.
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
  [45 <./figures/easeOfUse.png>]
-<figures/effectiveness.png, id=357, 724.6272pt x 218.2554pt>
+<figures/effectiveness.png, id=724, 724.6272pt x 218.2554pt>
 File: figures/effectiveness.png Graphic file (type png)
 
 <use figures/effectiveness.png>
-Package pdftex.def Info: figures/effectiveness.png used on input line 214.
+Package pdftex.def Info: figures/effectiveness.png used on input line 215.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
 
-<figures/contextBenefits.png, id=358, 724.6272pt x 218.2554pt>
+<figures/contextBenefits.png, id=726, 724.6272pt x 218.2554pt>
 File: figures/contextBenefits.png Graphic file (type png)
 
 <use figures/contextBenefits.png>
-Package pdftex.def Info: figures/contextBenefits.png used on input line 225.
+Package pdftex.def Info: figures/contextBenefits.png used on input line 226.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
  [46 <./figures/effectiveness.png>]
-<figures/satisfaction.png, id=366, 725.109pt x 218.7372pt>
+<figures/satisfaction.png, id=735, 725.109pt x 218.7372pt>
 File: figures/satisfaction.png Graphic file (type png)
 
 <use figures/satisfaction.png>
-Package pdftex.def Info: figures/satisfaction.png used on input line 240.
+Package pdftex.def Info: figures/satisfaction.png used on input line 241.
 (pdftex.def)             Requested size: 407.27533pt x 122.85876pt.
  [47 <./figures/contextBenefits.png>]
-<figures/usefulness.png, id=375, 725.109pt x 218.2554pt>
+<figures/usefulness.png, id=744, 725.109pt x 218.2554pt>
 File: figures/usefulness.png Graphic file (type png)
 
 <use figures/usefulness.png>
-Package pdftex.def Info: figures/usefulness.png used on input line 251.
+Package pdftex.def Info: figures/usefulness.png used on input line 252.
 (pdftex.def)             Requested size: 408.17154pt x 122.85876pt.
  [48 <./figures/satisfaction.png> <./figures/usefulness.png>] <figures/clearnes
-s.png, id=387, 724.1454pt x 218.2554pt>
+s.png, id=757, 724.1454pt x 218.2554pt>
 File: figures/clearness.png Graphic file (type png)
 
 <use figures/clearness.png>
-Package pdftex.def Info: figures/clearness.png used on input line 262.
+Package pdftex.def Info: figures/clearness.png used on input line 263.
 (pdftex.def)             Requested size: 407.62912pt x 122.85876pt.
 
-<figures/generalPreference.png, id=388, 362.7954pt x 217.7736pt>
+<figures/generalPreference.png, id=759, 362.7954pt x 217.7736pt>
 File: figures/generalPreference.png Graphic file (type png)
 
 <use figures/generalPreference.png>
-Package pdftex.def Info: figures/generalPreference.png used on input line 275.
+Package pdftex.def Info: figures/generalPreference.png used on input line 276.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [49 <./figures/clearness.png> <./figures/generalPreference.png>]
-<figures/systemSatisfaction.png, id=399, 724.6272pt x 217.7736pt>
+<figures/systemSatisfaction.png, id=770, 724.6272pt x 217.7736pt>
 File: figures/systemSatisfaction.png Graphic file (type png)
 
 <use figures/systemSatisfaction.png>
-Package pdftex.def Info: figures/systemSatisfaction.png used on input line 289.
+Package pdftex.def Info: figures/systemSatisfaction.png used on input line 290.
 
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
  [50 <./figures/systemSatisfaction.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-[]|\T1/pplx/m/n/10.95 (+20) Explanation
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 325--325
 []|\T1/pplx/m/n/10.95 (+20) Explanation
  []
@@ -2255,11 +1866,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--326
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\T1/pplx/m/n/10.95 (+20) Critiquing
+[]|\T1/pplx/m/n/10.95 (+20) Explanation
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 328--328
+[]|\T1/pplx/m/n/10.95 (+20) Critiquing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\T1/pplx/m/n/10.95 (+20) Completion
  []
 
@@ -2578,11 +2194,6 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 39--40
  []
 
 
-Overfull \hbox (131.05376pt too wide) in alignment at lines 15--40
- [] [] [] [] [] [] [] [] 
- []
-
-
 Underfull \vbox (badness 10000) detected at line 40
  []
 
@@ -2877,11 +2488,6 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--61
  []
 
 
-Overfull \hbox (131.05376pt too wide) in alignment at lines 40--63
- [] [] [] [] [] [] [] [] 
- []
-
-
 Underfull \hbox (badness 2707) in paragraph at lines 65--65
 []|\T1/pplx/m/n/9 (+20) intent of pur-
  []
@@ -2936,20 +2542,10 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 75--76
 []|\T1/pplx/m/n/9 (-20) 0.85| 
  []
 
-
-Overfull \hbox (131.05376pt too wide) in alignment at lines 63--76
- [] [] [] [] [] [] [] [] 
- []
-
 [56
 
 
-]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax A.1 on input line 76.
-
-) (./appendix/cs.tex [57]
+]) (./appendix/cs.tex [57]
 Appendix B.
 ) [58
 
@@ -2957,6 +2553,7 @@ Appendix B.
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 44
 .
+ (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -2966,6 +2563,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 44
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 45
 .
+ (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -2978,35 +2576,26 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 45
 ] [62] [63])
 No complaints by nag.
 [64]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
-(./main.aux)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 01144E96CD2A6809A951D0AE60E96B2E;3096.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  01144E96CD2A6809A951D0AE60E96B2E;3096.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35782 strings out of 493117
- 772175 string characters out of 6135433
- 1048077 words of memory out of 5000000
- 37964 multiletter control sequences out of 15000+600000
+ 35845 strings out of 493117
+ 773026 string characters out of 6135433
+ 1056425 words of memory out of 5000000
+ 38013 multiletter control sequences out of 15000+600000
  83225 words of font info for 349 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,83p,1850b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3020,10 +2609,10 @@ exmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2014/texmf-dis
 t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (71 pages, 1435102 bytes).
+Output written on main.pdf (71 pages, 1450537 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 218 named destinations out of 1000 (max. 500000)
- 57964 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 959 PDF objects out of 1000 (max. 8388607)
+ 831 compressed objects within 9 object streams
+ 220 named destinations out of 1000 (max. 500000)
+ 58332 words of extra memory for PDF output out of 61914 (max. 10000000)
 
