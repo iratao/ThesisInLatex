@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {3.1}Acquiring Context Relevance}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Analysis of Context Relevance}{23}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}The Proposed Approach}{24}{section.3.2}
-\contentsline {section}{\numberline {3.3}Towards Case-Based Recommender System}{26}{section.3.3}
+\contentsline {section}{\numberline {3.3}Towards Case-Based Recommender System}{25}{section.3.3}
 \contentsline {section}{\numberline {3.4}Case Model}{27}{section.3.4}
 \contentsline {section}{\numberline {3.5}Similarity Assessment}{28}{section.3.5}
 \contentsline {section}{\numberline {3.6}Explanation Generation}{29}{section.3.6}

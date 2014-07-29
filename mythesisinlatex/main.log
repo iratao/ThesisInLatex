@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  28 JUL 2014 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.21)  29 JUL 2014 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1409,6 +1409,11 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count180
 \c@subtable=\count181
 ))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language79
+LaTeX Info: Redefining \_ on input line 43.
+)
 (./settings/settings.tex) (./settings/commands.tex)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/ix-name.def
 File: ix-name.def 2011/05/27 v1.10 Name list (inputenx)
@@ -1653,7 +1658,19 @@ l.14
 
 
 
-] [2]) (./chapters/foundation.tex [3]
+]
+Overfull \hbox (9.68588pt too wide) in paragraph at lines 19--20
+[]\T1/pplx/m/n/10.95 (-20) As a re-sult, the fo-cus of this the-sis shifted to 
+im-ple-ment-ing and eval-u-at-ing context-aware
+ []
+
+
+Overfull \hbox (3.66788pt too wide) in paragraph at lines 23--24
+\T1/pplx/m/n/10.95 (-20) ex-plore if the in-te-gra-tion of context-aware in-for
+-ma-tion us-ing case-based rec-om-men-da-tion
+ []
+
+[2]) (./chapters/foundation.tex [3]
 Chapter 2.
 LaTeX Font Info:    Try loading font information for TS1+pplx on input line 13.
 
@@ -1663,124 +1680,196 @@ File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 
 
 ]
-Overfull \hbox (1.1414pt too wide) in paragraph at lines 26--27
+Overfull \hbox (30.50555pt too wide) in paragraph at lines 26--27
 []\T1/pplx/m/n/10.95 (-20) There are two types of knowledge-based RSs: case-bas
-ed rec-om-mender and constraint-
+ed rec-om-mender and constraint-based
  []
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 28.
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+[5]
+Overfull \hbox (16.96397pt too wide) in paragraph at lines 42--43
+[]\T1/pplx/b/n/10.95 Iterate\T1/pplx/m/n/10.95 (-20) : Usu-ally in a con-ver-sa
+-tional rec-om-mender sys-tem, the cri-tiques and cus-tomiza-tion
+ []
+
+[6]
+Overfull \hbox (28.25679pt too wide) in paragraph at lines 56--57
+[]\T1/pplx/b/n/10.95 Evaluation model $\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.9
+5 E\OT1/zplm/m/n/10.95 )$\T1/pplx/m/n/10.95 (-20) : The eval-u-a-tion model de-
+scribes the out-come of the rec-om-men-da-tion
+ []
+
+[7]
+Overfull \hbox (8.63081pt too wide) in paragraph at lines 88--89
+[]\T1/pplx/b/n/10.95 Ensemble-based Ac-tive Learn-ing\T1/pplx/m/n/10.95 (-20) :
+ There are usu-ally ad-van-tages and dis-ad-van-tages
+ []
+
+[8]
+Overfull \hbox (10.34464pt too wide) in paragraph at lines 93--94
+\T1/pplx/m/n/10.95 (-20) Different from stan-dard AL meth-ods in which the goal
+ is to ob-tain rat-ings of rep-re-sen-ta-tive
+ []
+
+[9] [10]
+Overfull \hbox (4.24126pt too wide) in paragraph at lines 118--120
+\T1/pplx/m/n/10.95 (-20) def-i-ni-tion is too gen-eral and can not be ef-fec-ti
+vely used in context-aware rec-om-men-da-tion
+ []
+
+[11] [12] [13] [14] [15]
+Overfull \hbox (19.59485pt too wide) in paragraph at lines 190--191
+\T1/pplx/m/n/10.95 (-20) In pa-per [[]], dif-fer-ent ap-proaches to in-cor-po-r
+at-ing con-tex-tual in-for-ma-tion into rec-om-mender
+ []
+
+[16]
+Overfull \hbox (3.52708pt too wide) in paragraph at lines 213--214
+\T1/pplx/m/n/10.95 (-20) dis-cussing the ap-pli-ca-tion de-vel-oped in this the
+-sis, the base-line sys-tem will be in-tro-duced
+ []
+
+[17] [18]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 230.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [19])
-(./chapters/buildTheSystem.tex [20]
+ [19]
+Overfull \hbox (33.35425pt too wide) in paragraph at lines 261--262
+\T1/pplx/m/n/10.95 (-20) con-tex-tual sce-nar-ios; pre-dict-ing rat-ings given 
+a spe-cific con-text; context-aware rec-om-men-da-tion
+ []
+
+) (./chapters/buildTheSystem.tex [20]
 Chapter 3.
 [21
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T1/pplx/m/n/10.95 (+20) purchasing
- []
-
-
-Overfull \hbox (20.40417pt too wide) in paragraph at lines 19--44
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\T1/pplx/m/n/10 (+20) purchasing
  []
 
 [22] <figures/webtool.png, id=520, 626.34pt x 343.2825pt>
 File: figures/webtool.png Graphic file (type png)
 
 <use figures/webtool.png>
-Package pdftex.def Info: figures/webtool.png used on input line 51.
+Package pdftex.def Info: figures/webtool.png used on input line 52.
 (pdftex.def)             Requested size: 369.20288pt x 202.35622pt.
  [23 <./figures/webtool.png>] [24] [25]
 
-LaTeX Warning: Citation `sec:rs_alrs' on page 26 undefined on input line 103.
+LaTeX Warning: Citation `sec:rs_alrs' on page 26 undefined on input line 104.
 
-[26] [27] [28] [29] [30] <figures/setting1.png, id=594, 481.8pt x 857.2025pt>
+[26] [27] [28] [29]
+Overfull \hbox (1.77844pt too wide) in paragraph at lines 178--179
+\T1/pplx/m/n/10.95 (-20) pa-per [[]]. Shop-per in-te-grates con-tex-tual in-for
+-ma-tion us-ing case-based rec-om-men-da-tion
+ []
+
+[30] <figures/setting1.png, id=594, 481.8pt x 857.2025pt>
 File: figures/setting1.png Graphic file (type png)
 
 <use figures/setting1.png>
-Package pdftex.def Info: figures/setting1.png used on input line 186.
+Package pdftex.def Info: figures/setting1.png used on input line 187.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
 
 <figures/setting2.png, id=595, 481.8pt x 857.2025pt>
 File: figures/setting2.png Graphic file (type png)
 
 <use figures/setting2.png>
-Package pdftex.def Info: figures/setting2.png used on input line 192.
+Package pdftex.def Info: figures/setting2.png used on input line 193.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
- [31 <./figures/setting1.png> <./figures/setting2.png>] <figures/recommlist.png
-, id=603, 481.8pt x 857.2025pt>
+
+<figures/recommlist.png, id=598, 481.8pt x 857.2025pt>
 File: figures/recommlist.png Graphic file (type png)
 
 <use figures/recommlist.png>
-Package pdftex.def Info: figures/recommlist.png used on input line 207.
+Package pdftex.def Info: figures/recommlist.png used on input line 208.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
 
-<figures/recommdetail.png, id=604, 481.8pt x 857.2025pt>
+<figures/recommdetail.png, id=599, 481.8pt x 857.2025pt>
 File: figures/recommdetail.png Graphic file (type png)
 
 <use figures/recommdetail.png>
-Package pdftex.def Info: figures/recommdetail.png used on input line 213.
+Package pdftex.def Info: figures/recommdetail.png used on input line 214.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
- [32 <./figures/recommlist.png> <./figures/recommdetail.png>] <figures/recommde
-tailmap.png, id=612, 481.8pt x 857.2025pt>
+ [31 <./figures/setting1.png> <./figures/setting2.png>] [32 <./figures/recommli
+st.png> <./figures/recommdetail.png>]
+<figures/recommdetailmap.png, id=612, 481.8pt x 857.2025pt>
 File: figures/recommdetailmap.png Graphic file (type png)
 
 <use figures/recommdetailmap.png>
-Package pdftex.def Info: figures/recommdetailmap.png used on input line 227.
+Package pdftex.def Info: figures/recommdetailmap.png used on input line 228.
 (pdftex.def)             Requested size: 162.47917pt x 289.07999pt.
 ) (./chapters/evaluation.tex [33 <./figures/recommdetailmap.png>]
 Chapter 4.
 [34
 
 
-] [35] [36] [37] [38] [39] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
-[]|\T1/pplx/m/n/10.95 (+20) Decision
+] [35] [36] [37] [38] [39] [40]
+Overfull \hbox (2.65076pt too wide) in paragraph at lines 134--135
+\T1/pplx/m/n/10.95 (-20) de-not-ing the vari-ant us-ing context-aware rec-om-me
+n-da-tion, NCW the one rec-om-mend-ing
+ []
+
+[41]
+Overfull \hbox (3.05843pt too wide) in paragraph at lines 136--137
+\T1/pplx/m/n/10.95 (-20) prop-er-ties (pre-dic-tion ac-cu-racy, de-ci-sion ef-f
+ort, ex-pla-na-tion ben-e-fits and con-text ben-e-fits),
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\T1/pplx/m/n/10.95 (+20) Decision
+[]|\T1/pplx/m/n/10 (+20) Decision
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 147--147
-\T1/pplx/m/n/10.95 (+20) me to com-plete
+Underfull \hbox (badness 1895) in paragraph at lines 147--147
+\T1/pplx/m/n/10 (+20) the in-for-ma-tion I
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\T1/pplx/m/n/10.95 (+20) Decision
+[]|\T1/pplx/m/n/10 (+20) Decision
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T1/pplx/m/n/10 (+20) The sys-tem is
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\T1/pplx/m/n/10.95 (+20) Decision
+[]|\T1/pplx/m/n/10 (+20) Decision
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--150
-[]|\T1/pplx/m/n/10.95 (+20) System
+[]|\T1/pplx/m/n/10 (+20) Decision
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
-\T1/pplx/m/n/10.95 (+20) Pref-er-
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|\T1/pplx/m/n/10 (+20) System
+ []
+
+
+Overfull \hbox (2.29375pt too wide) in paragraph at lines 151--151
+\T1/pplx/m/n/10 (-20) Pref-er-ence| 
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 151--151
+[]|\T1/pplx/m/n/10 (+20) I like us-ing this
  []
 
 <figures/predictionAccuracy.png, id=680, 362.3136pt x 218.2554pt>
 File: figures/predictionAccuracy.png Graphic file (type png)
 
 <use figures/predictionAccuracy.png>
-Package pdftex.def Info: figures/predictionAccuracy.png used on input line 160.
+Package pdftex.def Info: figures/predictionAccuracy.png used on input line 161.
 
 (pdftex.def)             Requested size: 239.94592pt x 144.54pt.
  [42]
@@ -1788,99 +1877,113 @@ Package pdftex.def Info: figures/predictionAccuracy.png used on input line 160.
 File: figures/critiquingCycles.png Graphic file (type png)
 
 <use figures/critiquingCycles.png>
-Package pdftex.def Info: figures/critiquingCycles.png used on input line 175.
+Package pdftex.def Info: figures/critiquingCycles.png used on input line 176.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [43 <./figures/predictionAccuracy.png>]
 <figures/critiquingTime.png, id=703, 362.3136pt x 217.7736pt>
 File: figures/critiquingTime.png Graphic file (type png)
 
 <use figures/critiquingTime.png>
-Package pdftex.def Info: figures/critiquingTime.png used on input line 187.
+Package pdftex.def Info: figures/critiquingTime.png used on input line 188.
 (pdftex.def)             Requested size: 240.47665pt x 144.54pt.
  [44 <./figures/critiquingCycles.png> <./figures/critiquingTime.png>]
 <figures/easeOfUse.png, id=714, 724.6272pt x 217.7736pt>
 File: figures/easeOfUse.png Graphic file (type png)
 
 <use figures/easeOfUse.png>
-Package pdftex.def Info: figures/easeOfUse.png used on input line 202.
+Package pdftex.def Info: figures/easeOfUse.png used on input line 203.
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
  [45 <./figures/easeOfUse.png>]
 <figures/effectiveness.png, id=724, 724.6272pt x 218.2554pt>
 File: figures/effectiveness.png Graphic file (type png)
 
 <use figures/effectiveness.png>
-Package pdftex.def Info: figures/effectiveness.png used on input line 215.
+Package pdftex.def Info: figures/effectiveness.png used on input line 216.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
 
 <figures/contextBenefits.png, id=726, 724.6272pt x 218.2554pt>
 File: figures/contextBenefits.png Graphic file (type png)
 
 <use figures/contextBenefits.png>
-Package pdftex.def Info: figures/contextBenefits.png used on input line 226.
+Package pdftex.def Info: figures/contextBenefits.png used on input line 227.
 (pdftex.def)             Requested size: 407.90033pt x 122.85876pt.
  [46 <./figures/effectiveness.png>]
 <figures/satisfaction.png, id=735, 725.109pt x 218.7372pt>
 File: figures/satisfaction.png Graphic file (type png)
 
 <use figures/satisfaction.png>
-Package pdftex.def Info: figures/satisfaction.png used on input line 241.
+Package pdftex.def Info: figures/satisfaction.png used on input line 242.
 (pdftex.def)             Requested size: 407.27533pt x 122.85876pt.
  [47 <./figures/contextBenefits.png>]
 <figures/usefulness.png, id=744, 725.109pt x 218.2554pt>
 File: figures/usefulness.png Graphic file (type png)
 
 <use figures/usefulness.png>
-Package pdftex.def Info: figures/usefulness.png used on input line 252.
+Package pdftex.def Info: figures/usefulness.png used on input line 253.
 (pdftex.def)             Requested size: 408.17154pt x 122.85876pt.
  [48 <./figures/satisfaction.png> <./figures/usefulness.png>] <figures/clearnes
 s.png, id=757, 724.1454pt x 218.2554pt>
 File: figures/clearness.png Graphic file (type png)
 
 <use figures/clearness.png>
-Package pdftex.def Info: figures/clearness.png used on input line 263.
+Package pdftex.def Info: figures/clearness.png used on input line 264.
 (pdftex.def)             Requested size: 407.62912pt x 122.85876pt.
 
 <figures/generalPreference.png, id=759, 362.7954pt x 217.7736pt>
 File: figures/generalPreference.png Graphic file (type png)
 
 <use figures/generalPreference.png>
-Package pdftex.def Info: figures/generalPreference.png used on input line 276.
+Package pdftex.def Info: figures/generalPreference.png used on input line 277.
 (pdftex.def)             Requested size: 240.79643pt x 144.54pt.
  [49 <./figures/clearness.png> <./figures/generalPreference.png>]
 <figures/systemSatisfaction.png, id=770, 724.6272pt x 217.7736pt>
 File: figures/systemSatisfaction.png Graphic file (type png)
 
 <use figures/systemSatisfaction.png>
-Package pdftex.def Info: figures/systemSatisfaction.png used on input line 290.
+Package pdftex.def Info: figures/systemSatisfaction.png used on input line 291.
 
 (pdftex.def)             Requested size: 408.81805pt x 122.85876pt.
  [50 <./figures/systemSatisfaction.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-[]|\T1/pplx/m/n/10.95 (+20) Explanation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\T1/pplx/m/n/10.95 (+20) Explanation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\T1/pplx/m/n/10.95 (+20) Explanation
+Overfull \hbox (15.47606pt too wide) in paragraph at lines 310--311
+\T1/pplx/m/n/10.95 (-20) To un-der-stand the re-la-tion-ship be-tween dif-fer-e
+nt mea-sure-ments in-stead of only in-ter-pret-ing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\T1/pplx/m/n/10.95 (+20) Critiquing
+[]|\T1/pplx/m/n/10 (+20) Explanation
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[]|\T1/pplx/m/n/10.95 (+20) Completion
+[]|\T1/pplx/m/n/10 (+20) Explanation
  []
 
-[51] [52]) (./chapters/conclusionsAndFutureWork.tex [53]
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]|\T1/pplx/m/n/10 (+20) Explanation
+ []
+
+[51]
+Overfull \hbox (1.2908pt too wide) in paragraph at lines 338--339
+\T1/pplx/m/n/10.95 (-20) vari-ant CW showed more ap-pro-pri-ate clothes than no
+n context-aware vari-ant. Ac-cord-ing
+ []
+
+[52]) (./chapters/conclusionsAndFutureWork.tex [53]
 Chapter 5.
+
+Overfull \hbox (5.97392pt too wide) in paragraph at lines 3--4
+\T1/pplx/m/n/10.95 (-20) In this the-sis, a context-aware rec-om-mender sys-tem
+ that in-te-grates con-tex-tual in-for-ma-tion
+ []
+
+
+Overfull \hbox (4.08241pt too wide) in paragraph at lines 5--6
+\T1/pplx/m/n/10.95 (-20) rec-om-mender sys-tem, col-lab-o-ra-tive fil-ter-ing a
+p-proach was used for long-term knowl-edge
+ []
+
 [54
 
 
@@ -1984,8 +2087,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 25--26
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 26--26
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2004,8 +2107,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 26--26
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 26--26
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2039,8 +2142,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 28--28
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 28--28
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2089,8 +2192,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 30--30
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 30--30
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2104,8 +2207,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 30--31
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 34--34
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2159,8 +2262,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 38--38
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 38--38
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2213,8 +2316,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 40--40
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 40--40
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2238,8 +2341,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 41--41
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 42--42
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2338,8 +2441,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 53--53
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 53--53
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2353,8 +2456,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 53--54
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 54--54
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2393,8 +2496,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 55--55
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 55--55
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2468,8 +2571,8 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--60
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 60--60
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2488,13 +2591,13 @@ Overfull \hbox (1.20865pt too wide) in paragraph at lines 60--61
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 65--65
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 67--67
-[]|\T1/pplx/m/n/9 (+20) intent of pur-
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\T1/pplx/m/n/9 (+20) intent of
  []
 
 
@@ -2553,7 +2656,13 @@ Appendix B.
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 44
 .
- (./main.lof)
+ (./main.lof
+Overfull \hbox (4.59723pt too wide) in paragraph at lines 21--21
+ [][] [][]\T1/pplx/m/n/10.95 (-20) System pref-er-ence in terms of dis-tri-bu-t
+ion of rat-ings for sys-tem sat-is-fac-tion 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -2592,11 +2701,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 35845 strings out of 493117
- 773026 string characters out of 6135433
- 1056425 words of memory out of 5000000
- 38013 multiletter control sequences out of 15000+600000
- 83225 words of font info for 349 fonts, out of 8000000 for 9000
+ 35914 strings out of 493117
+ 774131 string characters out of 6135433
+ 1057181 words of memory out of 5000000
+ 38068 multiletter control sequences out of 15000+600000
+ 87770 words of font info for 366 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,83p,1850b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -2609,10 +2718,10 @@ exmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2014/texmf-dis
 t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (71 pages, 1450537 bytes).
+Output written on main.pdf (71 pages, 1450961 bytes).
 PDF statistics:
  959 PDF objects out of 1000 (max. 8388607)
  831 compressed objects within 9 object streams
  220 named destinations out of 1000 (max. 500000)
- 58332 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 61916 words of extra memory for PDF output out of 74296 (max. 10000000)
 
