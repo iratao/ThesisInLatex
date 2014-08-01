@@ -66,3 +66,8 @@
 \contentsline {chapter}{\numberline {5}Conclusions and Future Work}{54}{chapter.5}
 \contentsline {chapter}{\numberline {A}User Preferences for Categories of Clothest}{56}{appendix.A}
 \contentsline {chapter}{\numberline {B}Context Scenarios}{58}{appendix.B}
+\contentsline {chapter}{\numberline {C}User Study Survey}{59}{appendix.C}
+\contentsline {section}{\numberline {C.1}Demographic Questions}{59}{section.C.1}
+\contentsline {section}{\numberline {C.2}The Post-Study Questionnaire}{59}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Likert Scale Statements}{59}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Regular Questions}{60}{subsection.C.2.2}
